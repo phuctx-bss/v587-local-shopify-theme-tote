@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "header",
   "name": "t:sections.header.settings.header-group.label",
@@ -7,8 +16,9 @@
       "settings": {
         "height": 40,
         "height_mobile": 60,
-        "color_scheme": "background-1",
-        "text_align": "left"
+        "color_scheme": "scheme-95688605-b5e0-49f5-81db-52e926650144",
+        "text_align": "center",
+        "text": "Free shipping for all orders from 1.3 to 14.3"
       }
     },
     "header": {
@@ -19,11 +29,25 @@
           "settings": {
             "burger_menu_heading": "Menu",
             "main_menu": "main-menu",
-            "small_menu": "menu-2",
+            "small_menu": "",
+            "burger_menu_description": "Quick access to everything you need.",
+            "burger_menu_button_label": "Shop Now",
+            "burger_menu_button_link": "",
+            "burger_menu_button_style": "tertiary",
+            "burger_menu_promo_1_trigger": "",
+            "heading_1": "New Arrivals",
+            "button_link_1": "",
+            "burger_menu_promo_2_trigger": "",
+            "heading_2": "Best Sellers",
             "button_link_2": "",
+            "burger_menu_promo_3_trigger": "",
+            "heading_3": "Collections",
             "button_link_3": "",
+            "burger_menu_promo_4_trigger": "",
+            "heading_4": "Deals & Offers",
             "button_link_4": "",
             "burger_menu_promo_5_trigger": "",
+            "heading_5": "Shop by Category",
             "button_link_5": ""
           }
         }
@@ -36,11 +60,20 @@
         "header_type": "center-logo-burger",
         "logo_width": 500,
         "menu": "",
+        "sticky_header_type": "on-scroll-up",
+        "header_animation_type": "fade",
         "enable_country_selector": false,
         "enable_language_selector": false,
         "enable_search": true,
         "scheme_position": "burger",
-        "sticky_header_type": "on-scroll-up"
+        "dm_button_type": "text",
+        "search_button_type": "text",
+        "search_mobile_button_type": "icon",
+        "cart_button_type": "text",
+        "cart_mobile_button_type": "text",
+        "account_button_type": "text",
+        "language_button_type": "text",
+        "region_button_type": "text"
       }
     }
   },
