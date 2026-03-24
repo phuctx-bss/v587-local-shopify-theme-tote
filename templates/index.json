@@ -560,11 +560,12 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/4_670ee6a3871b42b2bca318135bc5f84c.png",
             "overlay_opacity": 0.2,
-            "subheading": "usa",
-            "heading": "108 Greene Street, New York, NY 10012",
+            "subheading": "",
+            "heading": "The Ultimate Guide to Choosing the Perfect Handbag",
             "description": "",
-            "button_label": "Learn More",
+            "button_label": "",
             "button_link": ""
           }
         },
