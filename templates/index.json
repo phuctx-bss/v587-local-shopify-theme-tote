@@ -572,11 +572,12 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/3_fc2556bcc3cb48b9b6cd2f23bc48e917_c3150391-2e68-4905-b3d3-1a735cd56516.jpg",
             "overlay_opacity": 0.2,
-            "subheading": "japan",
-            "heading": "4 Chome-2-5 Ginza, Chuo City, Tokyo 104-0061",
+            "subheading": "",
+            "heading": "Sustainable Fashion: Eco-Friendly Bags You’ll Love",
             "description": "",
-            "button_label": "Learn More",
+            "button_label": "",
             "button_link": ""
           }
         }
