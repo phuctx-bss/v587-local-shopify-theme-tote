@@ -760,11 +760,12 @@
         "column_eiGm6a": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/vc_pnt__1.png",
             "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "Sustainable Fashion: Eco-Friendly Bags You’ll Love",
+            "subheading": "HAPAS Phuket",
+            "heading": "789 Beach RoadPhuket, Thailand",
             "description": "",
-            "button_label": "",
+            "button_label": "Learn More",
             "button_link": ""
           }
         },
