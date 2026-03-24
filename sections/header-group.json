@@ -75,10 +75,32 @@
         "language_button_type": "text",
         "region_button_type": "text"
       }
+    },
+    "countdown_timer_bar_d7METe": {
+      "type": "countdown-timer-bar",
+      "name": "t:sections.countdown-timer-bar.name",
+      "settings": {
+        "height": 40,
+        "height_mobile": 65,
+        "color_scheme": "",
+        "promo_text": "Summer limited offers",
+        "enable_mock_timer": true,
+        "mock_date_picker_day": 30,
+        "mock_date_picker_hours": 3,
+        "date_picker": "2025-06-01",
+        "time_picker": "00:00",
+        "countdown_block_font": "h2",
+        "completed_countdown": "show_text",
+        "countdown_heading": "Time Is Running Out",
+        "button_label": "Shop now",
+        "button_link": "shopify://collections",
+        "overlay_mobile_link": true
+      }
     }
   },
   "order": [
     "announcement_bar_RzNEGU",
-    "header"
+    "header",
+    "countdown_timer_bar_d7METe"
   ]
 }
