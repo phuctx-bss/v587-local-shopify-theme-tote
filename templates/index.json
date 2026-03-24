@@ -306,6 +306,7 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/about01_introduce1_img.jpg",
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
