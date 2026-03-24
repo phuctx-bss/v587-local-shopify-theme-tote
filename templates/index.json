@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "media-banner": {
@@ -7,6 +16,7 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/banner_vi_tam_358004f291324b8d8b3acbfb176df913.png",
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
@@ -15,10 +25,12 @@
             "subheading": "",
             "heading": "Timeless Leather Bags and Elegant Accessories",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Quality materials, thoughtful design, and reliable craftsmanship come together in leather bags and accessories that fit seamlessly into any routine.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "shopify://collections",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -34,6 +46,7 @@
         "header_overlay": true,
         "sticky": "sticky-none",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
         "aspect_ratio_mobile": "full",
@@ -46,6 +59,7 @@
       "settings": {
         "subheading": "",
         "heading": "",
+        "heading_tag": "h2",
         "description": "",
         "heading_size": "h1",
         "product_list": [],
@@ -75,14 +89,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Modernised Classics",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "A leather bag that feels timeless but fits right into today’s style—simple, durable, and easy to carry every day.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -98,6 +115,7 @@
         "header_overlay": false,
         "sticky": "sticky-effect",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
         "aspect_ratio_mobile": "full",
@@ -115,14 +133,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Universal Style",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "A sleek, structured leather bag that adds a polished touch to your everyday outfits, whether for work or going out.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -138,6 +159,7 @@
         "header_overlay": true,
         "sticky": "sticky-none",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
         "aspect_ratio_mobile": "full",
@@ -154,9 +176,11 @@
         "subheading": "Our Story",
         "heading": "Born in Madrid, our brand blends timeless craftsmanship with modern design. We create high-quality leather bags that are built to last—designed for everyday style, made with attention to detail, and inspired by the effortless elegance of Spanish life.",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "text": "",
         "enable_animation": true,
         "button_label": "Read Our Story",
+        "button_link": "",
         "button_style": "simple",
         "image_width": "small",
         "height": "portrait",
@@ -170,6 +194,7 @@
       "settings": {
         "subheading": "",
         "heading": "",
+        "heading_tag": "h2",
         "description": "",
         "heading_size": "h1",
         "product_list": [],
@@ -199,14 +224,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Everyday Totes",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Spacious, stylish totes for daily use.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -221,14 +249,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Classic Handbags",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Find timeless handbags that elevate your look with their design.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -245,6 +276,7 @@
         "header_overlay": false,
         "sticky": "sticky-effect",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
         "aspect_ratio_mobile": "full",
@@ -262,14 +294,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Minimalist Crossbodies",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Explore sleek crossbody bags that offer hands-free convenience.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "Shop All",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -285,6 +320,7 @@
         "header_overlay": true,
         "sticky": "sticky-none",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
         "aspect_ratio_mobile": "full",
@@ -298,6 +334,7 @@
         "product_slide": {
           "type": "product_slide",
           "settings": {
+            "product": "",
             "color_scheme": "",
             "overlay_opacity": 0.1,
             "description": "Spacious and versatile bags designed for your daily essentials."
@@ -306,6 +343,7 @@
         "product_slide2": {
           "type": "product_slide",
           "settings": {
+            "product": "",
             "color_scheme": "",
             "overlay_opacity": 0.1,
             "description": "Elegant and functional handbags crafted to complement every outfit and occasion"
@@ -314,6 +352,7 @@
         "product_slide1": {
           "type": "product_slide",
           "settings": {
+            "product": "",
             "color_scheme": "",
             "overlay_opacity": 0.1,
             "description": "Chic and durable totes perfect for carrying everything you need in style"
@@ -330,6 +369,7 @@
         "subheading": "",
         "heading": "",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "",
         "button_label": "",
         "button_link": "",
@@ -341,6 +381,7 @@
         "slideshow_delay": 3,
         "slide_effects": "slide",
         "is_sync_slide": true,
+        "enable_main_image_link": false,
         "enable_animation": true,
         "image_ratio": "square",
         "image_fit": "cover",
@@ -363,7 +404,8 @@
             "subheading": "Italy",
             "heading": "Via della Spiga, 22, Milan, 20121",
             "description": "",
-            "button_label": "Learn More"
+            "button_label": "Learn More",
+            "button_link": ""
           }
         },
         "column1": {
@@ -373,7 +415,8 @@
             "subheading": "usa",
             "heading": "108 Greene Street, New York, NY 10012",
             "description": "",
-            "button_label": "Learn More"
+            "button_label": "Learn More",
+            "button_link": ""
           }
         },
         "column2": {
@@ -383,7 +426,8 @@
             "subheading": "japan",
             "heading": "4 Chome-2-5 Ginza, Chuo City, Tokyo 104-0061",
             "description": "",
-            "button_label": "Learn More"
+            "button_label": "Learn More",
+            "button_link": ""
           }
         }
       },
@@ -397,6 +441,7 @@
         "subheading": "",
         "heading": "",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "",
         "enable_full_screen": false,
         "swiper": false,
@@ -405,11 +450,13 @@
         "slideshow_speed": 20,
         "layout_type": "standard",
         "content_position": "img-top",
+        "always_visible_text": false,
         "on_hover": "show_text",
         "multicolumn_to_show": 3,
         "image_ratio": "portrait",
         "object_fit": "cover",
         "card_heading_size": "h2",
+        "card_heading_tag": "h3",
         "button_label": "",
         "button_style": "simple",
         "button_link": "",
@@ -423,13 +470,15 @@
         "product-slide": {
           "type": "product-slide",
           "settings": {
-            "heading": "An Elegant Glow"
+            "heading": "An Elegant Glow",
+            "product": ""
           }
         },
         "product-slide1": {
           "type": "product-slide",
           "settings": {
-            "heading": "Classy Charm"
+            "heading": "Classy Charm",
+            "product": ""
           }
         }
       },
@@ -441,6 +490,7 @@
         "color_scheme": "",
         "big_image_ratio": "square",
         "heading_size": "h3",
+        "heading_tag": "p",
         "columns": 2,
         "slider": true,
         "stop_autoplay": true,
@@ -462,7 +512,8 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "subheading_tag": "h2"
           }
         },
         "price": {
@@ -515,7 +566,9 @@
         "subheading": "",
         "heading": "Explore Our Featured Item",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "",
+        "product_item": "",
         "desktop_alignment": "right",
         "mobile_alignment": "before",
         "image_ratio": "square",
@@ -533,73 +586,85 @@
         "column_6mt8jF": {
           "type": "column",
           "settings": {
-            "heading": "Luna"
+            "heading": "Luna",
+            "brand_link": ""
           }
         },
         "column_rwrRcn": {
           "type": "column",
           "settings": {
-            "heading": "Solace & Co."
+            "heading": "Solace & Co.",
+            "brand_link": ""
           }
         },
         "column_M3xiQd": {
           "type": "column",
           "settings": {
-            "heading": "Thimble Thread"
+            "heading": "Thimble Thread",
+            "brand_link": ""
           }
         },
         "column_DfQNEY": {
           "type": "column",
           "settings": {
-            "heading": "Auburn & Ivy"
+            "heading": "Auburn & Ivy",
+            "brand_link": ""
           }
         },
         "column_UiQNnc": {
           "type": "column",
           "settings": {
-            "heading": "Peregrine Atelier"
+            "heading": "Peregrine Atelier",
+            "brand_link": ""
           }
         },
         "column_URUCbL": {
           "type": "column",
           "settings": {
-            "heading": "Ember Lane Studio"
+            "heading": "Ember Lane Studio",
+            "brand_link": ""
           }
         },
         "column_pqLFaV": {
           "type": "column",
           "settings": {
-            "heading": "Liberationa"
+            "heading": "Liberationa",
+            "brand_link": ""
           }
         },
         "column_QpYNMr": {
           "type": "column",
           "settings": {
-            "heading": "Vale & Vine"
+            "heading": "Vale & Vine",
+            "brand_link": ""
           }
         },
         "column_XiHhnj": {
           "type": "column",
           "settings": {
-            "heading": "Alba Noir Store"
+            "heading": "Alba Noir Store",
+            "brand_link": ""
           }
         },
         "column_3KCfJN": {
           "type": "column",
           "settings": {
-            "heading": "Miracle"
+            "heading": "Miracle",
+            "brand_link": ""
           }
         },
         "column_MnYAXH": {
           "type": "column",
           "settings": {
-            "heading": "Nova Silk"
+            "heading": "Nova Silk",
+            "brand_link": ""
           }
         },
         "column_dNkUX6": {
           "type": "column",
           "settings": {
-            "heading": "Sharp Maison"
+            "heading": "Sharp Maison",
+            "brand_link": ""
           }
         }
       },
@@ -619,6 +684,7 @@
       ],
       "settings": {
         "subheading": "Our Brands",
+        "subheading_tag": "span",
         "aspect_ratio": "medium",
         "content_position": "center",
         "height": "portrait",
@@ -638,7 +704,8 @@
             "subheading": "",
             "heading": "The Best Bags for Traveling in Style",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column_FrxARm": {
@@ -648,7 +715,8 @@
             "subheading": "",
             "heading": "The Ultimate Guide to Choosing the Perfect Handbag",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column_eiGm6a": {
@@ -658,7 +726,8 @@
             "subheading": "",
             "heading": "Sustainable Fashion: Eco-Friendly Bags You’ll Love",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column_R8tQ8K": {
@@ -668,7 +737,8 @@
             "subheading": "",
             "heading": "Top Trends in Designer Bags for 2024",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column_HaipCn": {
@@ -678,7 +748,8 @@
             "subheading": "",
             "heading": "A History of Iconic Bags and Their Influence on Fashion",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -694,6 +765,7 @@
         "subheading": "",
         "heading": "Uncover Iconic Styles",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "",
         "enable_full_screen": true,
         "swiper": true,
@@ -702,11 +774,13 @@
         "slideshow_speed": 20,
         "layout_type": "overlay",
         "content_position": "img-top",
+        "always_visible_text": false,
         "on_hover": "show_text",
         "multicolumn_to_show": 2,
         "image_ratio": "landscape",
         "object_fit": "cover",
         "card_heading_size": "h2",
+        "card_heading_tag": "h3",
         "button_label": "",
         "button_style": "simple",
         "button_link": "",
