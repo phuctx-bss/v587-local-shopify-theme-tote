@@ -3528,6 +3528,11 @@ input[type=radio]:focus-visible + label {
   text-align: center;
   min-height: 4rem;
 }
+
+.section-announcement .announcement-bar__link .announcement-bar__message {
+  height: 100%;
+}
+
 .section-announcement .announcement-bar__image {
   display: flex;
   align-items: center;
