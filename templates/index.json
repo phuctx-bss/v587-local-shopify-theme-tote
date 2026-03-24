@@ -748,11 +748,12 @@
         "column_FrxARm": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/vhm__1.png",
             "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "The Ultimate Guide to Choosing the Perfect Handbag",
+            "subheading": "HAPAS Chiang Mai",
+            "heading": "456 Nimmanhaemin RoadChiang Mai, Thailand",
             "description": "",
-            "button_label": "",
+            "button_label": "Learn More",
             "button_link": ""
           }
         },
