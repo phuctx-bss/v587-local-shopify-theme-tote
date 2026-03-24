@@ -438,8 +438,9 @@
         "product-slide1": {
           "type": "product-slide",
           "settings": {
+            "image": "shopify://shop_images/about01_introduce2_img.jpg",
             "heading": "Classy Charm",
-            "product": ""
+            "product": "hobo-crossbody-bag"
           }
         }
       },
