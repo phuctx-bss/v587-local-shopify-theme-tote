@@ -5,7 +5,7 @@ library identifier: 'library@master', retriever: modernSCM([
 
 node {
 	env.PROJECT_NAME = 'v587'
-	env.DOCKER_IMAGE = 'rogerdz/shopify:node-20'
+	env.DOCKER_IMAGE = 'rogerdz/shopify:node-22'
 
 	def steps = shopifySteps()
 	runPipeline(steps)
