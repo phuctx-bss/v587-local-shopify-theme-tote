@@ -3594,7 +3594,6 @@ input[type=radio]:focus-visible + label {
 }
 .section-announcement .announcement-bar__link {
   display: block;
-  width: 100%;
   text-decoration: none;
 }
 .section-announcement .announcement-bar__link:hover {
