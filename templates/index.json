@@ -370,10 +370,11 @@
         "product_slide2": {
           "type": "product_slide",
           "settings": {
-            "product": "",
+            "product": "hobo-crossbody-bag",
+            "image": "shopify://shop_images/hapas_6-4-7364_128921731a2145809cdee45a0d6420cc_master.jpg",
             "color_scheme": "",
             "overlay_opacity": 0.1,
-            "description": "Elegant and functional handbags crafted to complement every outfit and occasion"
+            "description": "Highlight products, promos, or seasonal picks to engage visitors."
           }
         },
         "product_slide1": {
