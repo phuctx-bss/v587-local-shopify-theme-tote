@@ -548,11 +548,12 @@
         "column": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/1_1.jpg",
             "overlay_opacity": 0.2,
-            "subheading": "Italy",
-            "heading": "Via della Spiga, 22, Milan, 20121",
+            "subheading": "",
+            "heading": "The Best Bags for Traveling in Style",
             "description": "",
-            "button_label": "Learn More",
+            "button_label": "",
             "button_link": ""
           }
         },
