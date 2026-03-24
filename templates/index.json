@@ -430,8 +430,9 @@
         "product-slide": {
           "type": "product-slide",
           "settings": {
+            "image": "shopify://shop_images/about01_introduce1_img.jpg",
             "heading": "An Elegant Glow",
-            "product": ""
+            "product": "hobo-crossbody-bag-copy"
           }
         },
         "product-slide1": {
