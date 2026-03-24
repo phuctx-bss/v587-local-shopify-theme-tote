@@ -80,7 +80,7 @@
         "copyright_bottom": true,
         "enable_copyright_date": true,
         "enable_copyright_shopname": true,
-        "padding_top": "m",
+        "padding_top": "s",
         "padding_bottom": "xs"
       }
     }
