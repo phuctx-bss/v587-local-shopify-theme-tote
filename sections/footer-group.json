@@ -45,21 +45,13 @@
             "menu": "footer",
             "default_open": false
           }
-        },
-        "policies_MyEPfi": {
-          "type": "policies",
-          "settings": {
-            "subheading": "Legal",
-            "default_open": false
-          }
         }
       },
       "block_order": [
         "footer-1",
         "footer-2",
         "footer-3",
-        "show_socials",
-        "policies_MyEPfi"
+        "show_socials"
       ],
       "settings": {
         "color_scheme": "background-1",
