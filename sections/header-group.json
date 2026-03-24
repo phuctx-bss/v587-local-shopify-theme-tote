@@ -21,6 +21,27 @@
         "text": "Free shipping for all orders from 1.3 to 14.3"
       }
     },
+    "countdown_timer_bar_d7METe": {
+      "type": "countdown-timer-bar",
+      "name": "t:sections.countdown-timer-bar.name",
+      "settings": {
+        "height": 40,
+        "height_mobile": 65,
+        "color_scheme": "",
+        "promo_text": "Summer limited offers",
+        "enable_mock_timer": true,
+        "mock_date_picker_day": 30,
+        "mock_date_picker_hours": 3,
+        "date_picker": "2025-06-01",
+        "time_picker": "00:00",
+        "countdown_block_font": "h2",
+        "completed_countdown": "show_text",
+        "countdown_heading": "Time Is Running Out",
+        "button_label": "Shop now",
+        "button_link": "shopify://collections",
+        "overlay_mobile_link": true
+      }
+    },
     "header": {
       "type": "header",
       "blocks": {
@@ -57,50 +78,30 @@
       ],
       "settings": {
         "enable_border": false,
-        "header_type": "center-logo-burger",
-        "logo_width": 500,
+        "header_type": "center-logo",
+        "logo": "shopify://shop_images/logo.png",
+        "logo_width": 50,
         "menu": "",
         "sticky_header_type": "on-scroll-up",
         "header_animation_type": "fade",
-        "enable_country_selector": false,
-        "enable_language_selector": false,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
         "enable_search": true,
         "scheme_position": "burger",
         "dm_button_type": "text",
-        "search_button_type": "text",
+        "search_button_type": "icon-and-text",
         "search_mobile_button_type": "icon",
-        "cart_button_type": "text",
+        "cart_button_type": "icon-and-text",
         "cart_mobile_button_type": "text",
-        "account_button_type": "text",
+        "account_button_type": "icon-and-text",
         "language_button_type": "text",
-        "region_button_type": "text"
-      }
-    },
-    "countdown_timer_bar_d7METe": {
-      "type": "countdown-timer-bar",
-      "name": "t:sections.countdown-timer-bar.name",
-      "settings": {
-        "height": 40,
-        "height_mobile": 65,
-        "color_scheme": "",
-        "promo_text": "Summer limited offers",
-        "enable_mock_timer": true,
-        "mock_date_picker_day": 30,
-        "mock_date_picker_hours": 3,
-        "date_picker": "2025-06-01",
-        "time_picker": "00:00",
-        "countdown_block_font": "h2",
-        "completed_countdown": "show_text",
-        "countdown_heading": "Time Is Running Out",
-        "button_label": "Shop now",
-        "button_link": "shopify://collections",
-        "overlay_mobile_link": true
+        "region_button_type": "icon-and-text"
       }
     }
   },
   "order": [
     "announcement_bar_RzNEGU",
-    "header",
-    "countdown_timer_bar_d7METe"
+    "countdown_timer_bar_d7METe",
+    "header"
   ]
 }
