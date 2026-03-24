@@ -360,10 +360,11 @@
         "product_slide": {
           "type": "product_slide",
           "settings": {
-            "product": "",
+            "product": "neutral-shoulder-bag",
+            "image": "shopify://shop_images/bac9261_df4c3b1a0d764fa3ad0ed1e5820fa773_grande_9157217f-14c1-4a35-9166-0685f012e25b.jpg",
             "color_scheme": "",
             "overlay_opacity": 0.1,
-            "description": "Spacious and versatile bags designed for your daily essentials."
+            "description": "Elegant and functional handbags crafted to complement every outfit and occasion"
           }
         },
         "product_slide2": {
