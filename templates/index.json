@@ -768,36 +768,12 @@
             "button_label": "Learn More",
             "button_link": ""
           }
-        },
-        "column_R8tQ8K": {
-          "type": "column",
-          "settings": {
-            "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "Top Trends in Designer Bags for 2024",
-            "description": "",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "column_HaipCn": {
-          "type": "column",
-          "settings": {
-            "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "A History of Iconic Bags and Their Influence on Fashion",
-            "description": "",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "column_7TBfrw",
         "column_FrxARm",
-        "column_eiGm6a",
-        "column_R8tQ8K",
-        "column_HaipCn"
+        "column_eiGm6a"
       ],
       "settings": {
         "color_scheme": "background-1",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer.settings.footer-group.label",
@@ -32,9 +41,9 @@
         "show_socials": {
           "type": "link_list",
           "settings": {
-						"subheading": "Socials",
-						"menu": "footer",
-						"default_open": false
+            "subheading": "Socials",
+            "menu": "footer",
+            "default_open": false
           }
         },
         "policies_MyEPfi": {
@@ -55,16 +64,19 @@
       "settings": {
         "color_scheme": "background-1",
         "show_border": true,
-        "logo_width": 500,
+        "logo": "shopify://shop_images/logo.png",
+        "logo_width": 50,
         "logo_layout": "center",
-        "subscribe_heading": "Your subscription section",
-        "description": "This is a concise overview of your brand’s mission, core values, and what makes you unique. It helps visitors understand what sets you apart and why they should connect with your offerings.",
+        "description": "HAPAS NỖ LỰC TẠO NÊN ĐIỀU BÌNH THƯỜNG TƯƠI ĐẸP CHO MỌI NGƯỜI, CHO MỌI NGÀY",
+        "language_button_type": "text",
+        "region_button_type": "icon-and-text",
         "enable_subscribe": true,
+        "subscribe_heading": "Follow for more deals",
         "subscribe_text": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "copyright_bottom": true,
         "enable_copyright_date": true,
         "enable_copyright_shopname": true,
