@@ -347,6 +347,16 @@
     "product-slider": {
       "type": "product-slider",
       "blocks": {
+        "product_slide_T9qQQG": {
+          "type": "product_slide",
+          "settings": {
+            "product": "c-chick-handbag",
+            "image": "shopify://shop_images/bac9614_a184328e3b5b455885ac57e0bcf54d6b_grande_c4d3f6b6-3362-4c7e-b3f1-c4c75f81ac7d.jpg",
+            "color_scheme": "background-2",
+            "overlay_opacity": 0.1,
+            "description": "Spacious and versatile bags designed for your daily essentials."
+          }
+        },
         "product_slide": {
           "type": "product_slide",
           "settings": {
@@ -376,6 +386,7 @@
         }
       },
       "block_order": [
+        "product_slide_T9qQQG",
         "product_slide",
         "product_slide2",
         "product_slide1"
