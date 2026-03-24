@@ -205,7 +205,12 @@
         "heading_tag": "h2",
         "description": "",
         "heading_size": "h1",
-        "product_list": [],
+        "product_list": [
+          "hobo-crossbody-bag-copy",
+          "c-chick-handbag",
+          "hobo-crossbody-bag",
+          "neutral-shoulder-bag"
+        ],
         "products_to_show": 4,
         "image_ratio": "square",
         "image_fit": "cover",
