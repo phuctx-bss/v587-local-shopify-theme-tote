@@ -134,6 +134,7 @@
       "blocks": {
         "media_slide_mf3BHP": {
           "type": "media_slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "",
             "overlay_opacity": 0.1,
@@ -179,20 +180,21 @@
         "aspect_ratio": "original",
         "heading_position": "shrink",
         "text_width": "medium",
-        "subheading": "Our Story",
-        "heading": "Born in Madrid, our brand blends timeless craftsmanship with modern design. We create high-quality leather bags that are built to last—designed for everyday style, made with attention to detail, and inspired by the effortless elegance of Spanish life.",
+        "subheading": "The making of HAPAS",
+        "heading": "Every HAPAS bag is crafted by skilled artisans who take pride in their work. We believe in creating products that showcase quality craftsmanship and attention to detail.From premium cotton canvas to genuine leather details, we carefully select materials that are durable, functional, and built to last through your daily adventures.",
         "heading_size": "h1",
         "heading_tag": "h2",
         "text": "",
         "enable_animation": true,
         "button_label": "Read Our Story",
-        "button_link": "",
+        "button_link": "shopify://pages/contact",
         "button_style": "simple",
-        "image_width": "small",
+        "image": "shopify://shop_images/bac9484_b6e80066243e4711930c0b120fe433f4_grande_24222578-ef83-4cc7-8fe0-25ad2bc8d9b4.jpg",
+        "image_width": "large",
         "height": "portrait",
         "layout": "image_bottom",
-        "margin_top": "l",
-        "margin_bottom": "l"
+        "margin_top": "s",
+        "margin_bottom": "s"
       }
     },
     "popular-products1": {
