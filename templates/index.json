@@ -424,76 +424,6 @@
         "margin_bottom": "m"
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column": {
-          "type": "column",
-          "settings": {
-            "overlay_opacity": 0.2,
-            "subheading": "Italy",
-            "heading": "Via della Spiga, 22, Milan, 20121",
-            "description": "",
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "overlay_opacity": 0.2,
-            "subheading": "usa",
-            "heading": "108 Greene Street, New York, NY 10012",
-            "description": "",
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "overlay_opacity": 0.2,
-            "subheading": "japan",
-            "heading": "4 Chome-2-5 Ginza, Chuo City, Tokyo 104-0061",
-            "description": "",
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column",
-        "column1",
-        "column2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "subheading": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "description": "",
-        "enable_full_screen": false,
-        "swiper": false,
-        "stop_autoplay": true,
-        "navigation": false,
-        "slideshow_speed": 20,
-        "layout_type": "standard",
-        "content_position": "img-top",
-        "always_visible_text": false,
-        "on_hover": "show_text",
-        "multicolumn_to_show": 3,
-        "image_ratio": "portrait",
-        "object_fit": "cover",
-        "card_heading_size": "h2",
-        "card_heading_tag": "h3",
-        "button_label": "",
-        "button_style": "simple",
-        "button_link": "",
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
-      }
-    },
     "featured-products": {
       "type": "featured-products",
       "blocks": {
@@ -529,9 +459,9 @@
         "hover_effect": true,
         "animate_on_scroll": true,
         "overlay_opacity": 0.1,
-        "image_ratio": "square",
+        "image_ratio": "portrait",
         "show_vendor": false,
-        "show_collection": false,
+        "show_collection": true,
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
@@ -606,6 +536,76 @@
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "Italy",
+            "heading": "Via della Spiga, 22, Milan, 20121",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "usa",
+            "heading": "108 Greene Street, New York, NY 10012",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "japan",
+            "heading": "4 Chome-2-5 Ginza, Chuo City, Tokyo 104-0061",
+            "description": "",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column",
+        "column1",
+        "column2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "description": "",
+        "enable_full_screen": false,
+        "swiper": false,
+        "stop_autoplay": true,
+        "navigation": false,
+        "slideshow_speed": 20,
+        "layout_type": "standard",
+        "content_position": "img-top",
+        "always_visible_text": false,
+        "on_hover": "show_text",
+        "multicolumn_to_show": 3,
+        "image_ratio": "portrait",
+        "object_fit": "cover",
+        "card_heading_size": "h2",
+        "card_heading_tag": "h3",
+        "button_label": "",
+        "button_style": "simple",
+        "button_link": "",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
@@ -712,6 +712,7 @@
         "column_MnYAXH",
         "column_dNkUX6"
       ],
+      "disabled": true,
       "settings": {
         "subheading": "Our Brands",
         "subheading_tag": "span",
@@ -829,9 +830,9 @@
     "media-banner-1",
     "media_banner_iUKQ4G",
     "product-slider",
-    "multicolumn",
     "featured-products",
     "featured-product",
+    "multicolumn",
     "brands_bLBJJK",
     "multicolumn_RzyPWa"
   ]
