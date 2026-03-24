@@ -1,0 +1,79 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer.settings.footer-group.label",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "link_list",
+          "settings": {
+            "subheading": "Shop",
+            "menu": "footer",
+            "default_open": false
+          }
+        },
+        "footer-2": {
+          "type": "link_list",
+          "settings": {
+            "subheading": "Company",
+            "menu": "footer",
+            "default_open": false
+          }
+        },
+        "footer-3": {
+          "type": "link_list",
+          "settings": {
+            "subheading": "Services",
+            "menu": "footer",
+            "default_open": false
+          }
+        },
+        "show_socials": {
+          "type": "link_list",
+          "settings": {
+						"subheading": "Socials",
+						"menu": "footer",
+						"default_open": false
+          }
+        },
+        "policies_MyEPfi": {
+          "type": "policies",
+          "settings": {
+            "subheading": "Legal",
+            "default_open": false
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "footer-2",
+        "footer-3",
+        "show_socials",
+        "policies_MyEPfi"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "show_border": true,
+        "logo_width": 500,
+        "logo_layout": "center",
+        "subscribe_heading": "Your subscription section",
+        "description": "This is a concise overview of your brand’s mission, core values, and what makes you unique. It helps visitors understand what sets you apart and why they should connect with your offerings.",
+        "enable_subscribe": true,
+        "subscribe_text": "",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "enable_follow_on_shop": true,
+        "copyright_bottom": true,
+        "enable_copyright_date": true,
+        "enable_copyright_shopname": true,
+        "padding_top": "m",
+        "padding_bottom": "xs"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "sections": {
+    "main": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore a curated collection of styles from fashion experts worldwide. From laid-back casuals to high-end couture, our platform highlights a unique blend of trends.",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Collection",
+            "button_style": "simple"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "product-popup": {
+      "type": "product-popup",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        }
+      },
+      "block_order": [
+        "item"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "popular-products": {
+      "type": "popular-products",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "heading_size": "h1",
+        "product_list": [],
+        "products_to_show": 4,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "1",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "product-popup-1": {
+      "type": "product-popup",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        },
+        "item2": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        }
+      },
+      "block_order": [
+        "item",
+        "item2"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "product-popup-2": {
+      "type": "product-popup",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        }
+      },
+      "block_order": [
+        "item"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "popular-products-2": {
+      "type": "popular-products",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "heading_size": "h1",
+        "product_list": [],
+        "products_to_show": 4,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "1",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "product-popup-3": {
+      "type": "product-popup",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        }
+      },
+      "block_order": [
+        "item"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "popular-products-3": {
+      "type": "popular-products",
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "description": "",
+        "heading_size": "h1",
+        "product_list": [],
+        "products_to_show": 4,
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "1",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "product-popup-4": {
+      "type": "product-popup",
+      "blocks": {
+        "item": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        },
+        "item2": {
+          "type": "item",
+          "settings": {
+            "overlay_opacity": 0.1,
+            "heading": "",
+            "heading_size": "h1",
+            "description": "",
+            "button_label": "Shop The Look",
+            "button_style": "tertiary",
+            "popup_heading": "Shop The Look",
+            "products_list": []
+          }
+        }
+      },
+      "block_order": [
+        "item",
+        "item2"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Refresh your wardrobe with our range of contemporary, adaptable clothing. Perfect for both everyday wear and special occasions, our collection offers the ideal balance of style and comfort.",
+            "heading_size": "h3"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Collection",
+            "button_style": "simple"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "alignment": "center",
+        "width": "medium",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-popup",
+    "popular-products",
+    "product-popup-1",
+    "product-popup-2",
+    "popular-products-2",
+    "product-popup-3",
+    "popular-products-3",
+    "product-popup-4",
+    "rich-text"
+  ]
+}

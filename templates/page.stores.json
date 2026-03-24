@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "about-us": {
+      "type": "about-us",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "image1": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "about-us-description": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Roma, Italy",
+            "heading": "Eleganza Roma Boutique",
+            "heading_size": "h2",
+            "description": "<p>This boutique, designed in collaboration with the acclaimed Italian architect Renzo Piano, blends the rich history of fashion with cutting-edge contemporary design.</p>"
+          }
+        },
+        "about_us_description_dV7GUz": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Address",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Via Condotti, 85, Rome, 00187, Italy</p>"
+          }
+        },
+        "about_us_description_GgRgmA": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Opening Hours",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Monday to Friday: 9:00 AM - 7:00 PM</p><p>Saturday: 10:00 AM - 6:00 PM</p><p>Sunday: Closed</p>"
+          }
+        },
+        "about_us_description_a8Hh4t": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Contacts",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>+39 02 1234567</p><p>info@eleganzamilanoboutique.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "image1",
+        "about-us-description",
+        "about_us_description_dV7GUz",
+        "about_us_description_GgRgmA",
+        "about_us_description_a8Hh4t"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "Stores",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "xs",
+        "margin_bottom": "m"
+      }
+    },
+    "about-us-1": {
+      "type": "about-us",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "image1": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "about-us-description": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "New York, USA",
+            "heading": "Manhattan Luxe Boutique",
+            "heading_size": "h2",
+            "description": "<p>Located in the heart of Manhattan, this boutique was designed in partnership with acclaimed architect Frank Gehry. The interior merges bold modernism with classic New York elegance, providing a unique backdrop for our curated collection of high-end fashion.</p>"
+          }
+        },
+        "about_us_description_fN6xk3": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Address",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>5th Avenue, 789, New York, NY 10022, USA</p>"
+          }
+        },
+        "about_us_description_LgfMab": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Opening Hours",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Monday to Saturday: 10:00 AM - 9:00 PM</p><p>Sunday: 11:00 AM - 6:00 PM</p>"
+          }
+        },
+        "about_us_description_aCz8JM": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Contacts",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>+1 212-555-7890</p><p>info@manhattanluxeboutique.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "image1",
+        "about-us-description",
+        "about_us_description_fN6xk3",
+        "about_us_description_LgfMab",
+        "about_us_description_aCz8JM"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "about-us-2": {
+      "type": "about-us",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "image1": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "about-us-description": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Berlin, Germany",
+            "heading": "Urban Elegance Boutique",
+            "heading_size": "h2",
+            "description": "<p>The boutique, crafted in collaboration with renowned German designer Axel Vervoordt, captures the minimalist essence of modern Berlin. The space is an artful blend of industrial chic and contemporary luxury, offering a serene escape from the bustling city streets.</p>"
+          }
+        },
+        "about_us_description_gqrH8r": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Address",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Kantstraße 159, 10623 Berlin, Germany</p>"
+          }
+        },
+        "about_us_description_G7PVCR": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Opening Hours",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>Monday to Friday: 10:00 AM - 7:00 PM</p><p>Saturday: 10:00 AM - 6:00 PM</p><p>Sunday: Closed</p>"
+          }
+        },
+        "about_us_description_jiGwAc": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Contacts",
+            "heading": "",
+            "heading_size": "h2",
+            "description": "<p>+49 30 12345678</p><p>info@urbaneleganceboutique.com</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "image1",
+        "about-us-description",
+        "about_us_description_gqrH8r",
+        "about_us_description_G7PVCR",
+        "about_us_description_jiGwAc"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "about-us",
+    "about-us-1",
+    "about-us-2"
+  ]
+}

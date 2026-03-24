@@ -1,0 +1,51 @@
+{
+  "type": "header",
+  "name": "t:sections.header.settings.header-group.label",
+  "sections": {
+    "announcement_bar_RzNEGU": {
+      "type": "announcement-bar",
+      "settings": {
+        "height": 40,
+        "height_mobile": 60,
+        "color_scheme": "background-1",
+        "text_align": "left"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "burger_menu_XV99f3": {
+          "type": "burger_menu",
+          "settings": {
+            "burger_menu_heading": "Menu",
+            "main_menu": "main-menu",
+            "small_menu": "menu-2",
+            "button_link_2": "",
+            "button_link_3": "",
+            "button_link_4": "",
+            "burger_menu_promo_5_trigger": "",
+            "button_link_5": ""
+          }
+        }
+      },
+      "block_order": [
+        "burger_menu_XV99f3"
+      ],
+      "settings": {
+        "enable_border": false,
+        "header_type": "center-logo-burger",
+        "logo_width": 500,
+        "menu": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "enable_search": true,
+        "scheme_position": "burger",
+        "sticky_header_type": "on-scroll-up"
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_RzNEGU",
+    "header"
+  ]
+}

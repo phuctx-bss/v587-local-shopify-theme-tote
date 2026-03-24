@@ -1,0 +1,369 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page-nav",
+      "blocks": {
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "button_label": "Packaging"
+          }
+        },
+        "tab1": {
+          "type": "tab",
+          "settings": {
+            "button_label": "Personalization"
+          }
+        },
+        "tab2": {
+          "type": "tab",
+          "settings": {
+            "button_label": "Gifts"
+          }
+        }
+      },
+      "block_order": [
+        "tab",
+        "tab1",
+        "tab2"
+      ],
+      "settings": {
+        "subheading": "",
+        "heading": "Services",
+        "description": "",
+        "heading_size": "h1",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "media-banner": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "enable_hover": false,
+            "show_video": false,
+            "description_video": "",
+            "subheading": "",
+            "heading": "Packaging",
+            "heading_size": "h1",
+            "description": "Discover elevated style with personalized packaging, designed to add a touch of luxury to every piece.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "simple",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "product-carousel": {
+      "type": "product-carousel",
+      "settings": {
+        "collection": "",
+        "collection_list": [],
+        "subheading": "",
+        "heading": "Individually Wrap Your Purchases in Style",
+        "text": "Experience the artistry of our packaging service tailored exclusively for each category of products.",
+        "button_label1": "",
+        "button_link": "",
+        "button_style": "simple",
+        "image_ratio": "portrait",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_sku": false,
+        "show_desc": false,
+        "overlay_opacity": 0.3,
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "banner-with-popup": {
+      "type": "banner-with-popup",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "image"
+      ],
+      "settings": {
+        "aspect_ratio": "full",
+        "full_screen_image_mode": true,
+        "heading": "Discover Our Stylish Packaging Solutions",
+        "heading_size": "h1",
+        "description": "<p>From the moment your parcel arrives, indulge in the luxury of our thoughtfully designed packaging.</p>",
+        "button_label": "Learn More",
+        "button_link": "",
+        "button_style": "simple",
+        "button_function": "popup",
+        "enable_animation": false,
+        "slideshow_speed": 6,
+        "popup_heading": "Discover Our Stylish Packaging Solutions",
+        "popup_content_heading": "Stylish Design",
+        "popup_content": "<p>Experience the art of presentation with our premium packaging solutions. Crafted with elegance and attention to detail, each package reflects the sophistication of your brand while ensuring that every unboxing is memorable. Elevate your products with packaging that speaks to quality and care.</p>",
+        "popup_image_size": "square",
+        "popup_button_label": "",
+        "popup_button_link": "",
+        "popup_button_style": "tertiary",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "The History of Accessory Bags: Function to Fashion",
+            "description": "",
+            "button_label": ""
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Versatile Accessory Bags for Work and Play",
+            "description": "",
+            "button_label": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "How to Match Your Accessory Bag with Your Outfit",
+            "description": "",
+            "button_label": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "How to Care for Your Accessory Bags",
+            "description": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "column",
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h1",
+        "description": "",
+        "enable_full_screen": true,
+        "swiper": true,
+        "stop_autoplay": true,
+        "navigation": false,
+        "slideshow_speed": 20,
+        "layout_type": "overlay",
+        "content_position": "img-top",
+        "on_hover": "show_text",
+        "multicolumn_to_show": 2,
+        "image_ratio": "landscape",
+        "object_fit": "cover",
+        "card_heading_size": "h2",
+        "button_label": "",
+        "button_style": "simple",
+        "button_link": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "collapsible-content": {
+      "type": "collapsible-content",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {}
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {}
+        },
+        "image-2": {
+          "type": "image",
+          "settings": {}
+        },
+        "accordion": {
+          "type": "accordion",
+          "settings": {
+            "question": "Where can I find your lounges?",
+            "answer": "<p>Our lounges are located in major cities worldwide, offering a relaxing space to try on our collections and receive personalized style advice.</p>"
+          }
+        },
+        "accordion-1": {
+          "type": "accordion",
+          "settings": {
+            "question": "How does your online returns policy work?",
+            "answer": "<p>We accept returns within 30 days of purchase for items in their original condition with tags attached. Visit our Returns page for instructions on how to initiate a return.</p>"
+          }
+        },
+        "accordion-2": {
+          "type": "accordion",
+          "settings": {
+            "question": "Which countries do you deliver to?",
+            "answer": "<p>We ship internationally to a wide range of countries. You can check our Shipping Information page for the complete list and specific rates.</p>"
+          }
+        },
+        "accordion-3": {
+          "type": "accordion",
+          "settings": {
+            "question": "What should I know about duties, taxes, and border charges?",
+            "answer": "<p>Duties and taxes are included at checkout for most regions. However, some international orders may be subject to additional customs fees, which are the responsibility of the customer.</p>"
+          }
+        },
+        "accordion-4": {
+          "type": "accordion",
+          "settings": {
+            "question": "How can I collect my order in-store?",
+            "answer": "<p>Select the \"Collect In-Store\" option during checkout and pick up your order from any of our participating locations. We’ll notify you when it’s ready for collection.</p>"
+          }
+        },
+        "accordion_BMCtEp": {
+          "type": "accordion",
+          "settings": {
+            "question": "Is it possible to buy a physical gift card?",
+            "answer": "<p>Yes, physical gift cards are available both online and in-store. You can select the amount and add a personalized message for the recipient.</p>"
+          }
+        },
+        "accordion_cFPntN": {
+          "type": "accordion",
+          "settings": {
+            "question": "Which countries accept Afterpay?",
+            "answer": "<p>Afterpay is available in several countries, including the United States, Australia, New Zealand, and the United Kingdom. Check our Payment Options page for the full list.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "image-1",
+        "image-2",
+        "accordion",
+        "accordion-1",
+        "accordion-2",
+        "accordion-3",
+        "accordion-4",
+        "accordion_BMCtEp",
+        "accordion_cFPntN"
+      ],
+      "settings": {
+        "aspect_ratio": "large",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "enable_animation": true,
+        "slideshow_speed": 4,
+        "button_label": "View Customer Care",
+        "button_style": "simple",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "media-banner-2": {
+      "type": "media-banner",
+      "blocks": {
+        "media_slide": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "enable_hover": true,
+            "show_video": false,
+            "description_video": "",
+            "subheading": "",
+            "heading": "Casual",
+            "heading_size": "h1",
+            "description": "Perfect for those who appreciate refined yet effortless fashion.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "",
+            "button_style": "simple",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        },
+        "media_slide-2": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "",
+            "overlay_opacity": 0.1,
+            "enable_hover": true,
+            "show_video": false,
+            "description_video": "",
+            "subheading": "",
+            "heading": "Elegance",
+            "heading_size": "h1",
+            "description": "Sleek pieces that embody simplicity and modern sophistication.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "",
+            "button_style": "simple",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        }
+      },
+      "block_order": [
+        "media_slide",
+        "media_slide-2"
+      ],
+      "settings": {
+        "header_overlay": false,
+        "layout": "overlay",
+        "gap": false,
+        "aspect_ratio": "full",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media-banner",
+    "product-carousel",
+    "banner-with-popup",
+    "multicolumn",
+    "collapsible-content",
+    "media-banner-2"
+  ]
+}
