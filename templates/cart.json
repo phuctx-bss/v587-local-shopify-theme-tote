@@ -30,9 +30,19 @@
         "margin_top": "m",
         "margin_bottom": "m"
       }
+    },
+    "product-recommendations-cart": {
+      "type": "product-recommendations-cart",
+      "settings": {
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "margin_top": "m",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
-    "cart-items"
+    "cart-items",
+    "product-recommendations-cart"
   ]
 }
