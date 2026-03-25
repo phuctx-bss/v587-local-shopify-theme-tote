@@ -4065,6 +4065,9 @@
 				},
 				"product_recommendations_heading": {
 					"label": "Product recommendations heading"
+				},
+				"show_view_shopping_cart_button": {
+					"label": "Show view shopping cart button"
 				}
 			}
 		},
