@@ -658,9 +658,11 @@
             >
               <span> {{ 'sections.cart.checkout' | t }} </span>
             </button>
-            <a href="{{ routes.cart_url }}" class="cart__link button button--simple button--arrow focus-inset">
-              <span>{{ 'general.cart.view' | t: count: cart.item_count }}</span>
-            </a>
+            {% if settings.show_view_shopping_cart_button %}
+              <a href="{{ routes.cart_url }}" class="cart__link button button--simple button--arrow focus-inset">
+                <span>{{ 'general.cart.view' | t: count: cart.item_count }}</span>
+              </a>
+            {% endif %}
           </div>
         </div>
       </div>
