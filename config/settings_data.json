@@ -53,7 +53,7 @@
       "c-chick-handbag",
       "hobo-crossbody-bag"
     ],
-    "show_view_shopping_cart_button": true,
+    "show_view_shopping_cart_button": false,
     "empty_cart_dec": "Browse our latest collection or check your saved favorites to add more items to your cart.",
     "empty_cart_heading": "Casual Collection",
     "notification": false,
