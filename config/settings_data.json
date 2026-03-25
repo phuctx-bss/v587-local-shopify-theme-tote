@@ -55,6 +55,7 @@
     ],
     "empty_cart_dec": "Browse our latest collection or check your saved favorites to add more items to your cart.",
     "empty_cart_heading": "Casual Collection",
+    "notification": false,
     "notification_product_list": [
       "c-chick-handbag",
       "hobo-crossbody-bag",
