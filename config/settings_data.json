@@ -36,7 +36,7 @@
     "product_color_option_display": "value",
     "swatch_type": "color",
     "quickview_show": false,
-    "add_to_cart_enabled": false,
+    "add_to_cart_enabled": true,
     "show_collection_card": true,
     "search_collection_list": [
       "c-chick-bag",
