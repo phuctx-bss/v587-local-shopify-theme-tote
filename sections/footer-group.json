@@ -18,7 +18,7 @@
           "type": "link_list",
           "settings": {
             "subheading": "Shop",
-            "menu": "footer",
+            "menu": "new",
             "default_open": false
           }
         },
@@ -34,7 +34,7 @@
           "type": "link_list",
           "settings": {
             "subheading": "Services",
-            "menu": "footer",
+            "menu": "services",
             "default_open": false
           }
         },
@@ -42,7 +42,7 @@
           "type": "link_list",
           "settings": {
             "subheading": "Socials",
-            "menu": "footer",
+            "menu": "socials",
             "default_open": false
           }
         }
