@@ -35,6 +35,8 @@
     "badge_soldout_text_color": "#000000",
     "product_color_option_display": "value",
     "swatch_type": "color",
+    "quickview_show": false,
+    "add_to_cart_enabled": false,
     "show_collection_card": true,
     "search_collection_list": [
       "c-chick-bag",
