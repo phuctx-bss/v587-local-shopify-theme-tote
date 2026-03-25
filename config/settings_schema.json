@@ -1243,6 +1243,12 @@
 				"label": "t:sections.main-cart-items.settings.product_recommendations_heading.label"
 			},
 			{
+				"type": "checkbox",
+				"id": "show_view_shopping_cart_button",
+				"default": false,
+				"label": "t:sections.main-cart-items.settings.show_view_shopping_cart_button.label"
+			},
+			{
 				"type": "header",
 				"content": "t:settings_schema.cart.settings.empty_cart.content"
 			},
