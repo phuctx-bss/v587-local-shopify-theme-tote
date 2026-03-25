@@ -44,7 +44,7 @@
     ],
     "search_heading": "Collection Name",
     "search_image": "shopify://shop_images/banner_vi_tam_358004f291324b8d8b3acbfb176df913_2866b909-504d-4f1a-8089-ebf53c205005.png",
-    "cart_type": "page",
+    "cart_type": "drawer",
     "cart_color_scheme": "background-1",
     "cart_image_ratio": "square",
     "empty_cart_dec": "Browse our latest collection or check your saved favorites to add more items to your cart.",
