@@ -491,6 +491,28 @@
           </div>
           <div id="CartDrawer-CartErrors" role="alert"></div>
         </form>
+        {% if settings.show_product_recommendations %}
+          <div class="product-recommendations__list">
+            {%- if settings.product_recommendations_heading != blank and settings.product_recommendation_list != blank -%}
+              <h3 class="notification_heading">
+                {{ settings.product_recommendations_heading }}
+              </h3>
+            {%- endif -%}
+            <div class="product-recommendations__list-card">
+              {% for product in settings.product_recommendation_list %}
+                <div class="collection-product-card product-recommendations__product quickview--hover">
+                  {% render 'product-card',
+                    product_card_product: product,
+                    media_size: settings.cart_image_ratio,
+                    media_fit: settings.cart_image_fit,
+                    show_vendor: settings.cart_show_vendor,
+                    show_slide: false
+                  %}
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
       </cart-drawer-items>
       <div class="drawer__footer">
         {%- if settings.show_cart_note_drawer -%}
