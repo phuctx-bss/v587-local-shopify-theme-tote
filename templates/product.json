@@ -102,7 +102,7 @@
         "image_fit": "cover",
         "enable_full_screen": true,
         "header_overlay": false,
-        "enable_sticky_button": false,
+        "enable_sticky_button": true,
         "variant_media_display": "show_all"
       }
     },
