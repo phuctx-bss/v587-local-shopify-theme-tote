@@ -671,3 +671,12 @@
     transition: transform var(--duration-default) ease, opacity var(--duration-default) ease;
   }
 }
+.card-information__button {
+  margin-top: 1.2rem;
+  width: 100%;
+  pointer-events: all;
+}
+
+.card-information__button .button {
+  width: 100%;
+}
