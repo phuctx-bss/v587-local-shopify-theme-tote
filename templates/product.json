@@ -112,10 +112,11 @@
         "product_slide": {
           "type": "product_slide",
           "settings": {
-            "product": "",
+            "product": "hobo-crossbody-bag",
+            "image": "shopify://shop_images/mg_0209_fb663d38ef4c4e249563a486c705cde8_master.jpg",
             "color_scheme": "",
             "overlay_opacity": 0.1,
-            "description": "Elevate your wardrobe with pieces that embody the essence of modern elegance"
+            "description": "Highlight products, promos, or seasonal picks to engage visitors."
           }
         },
         "product_slide1": {
