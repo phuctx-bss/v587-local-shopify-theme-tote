@@ -25,9 +25,11 @@ ignore:
 # DeprecatedFontsOnSectionsAndBlocks:
 #   enabled: true
 #   severity: 1
-# DeprecatedFontsOnSettingsSchema:
-#   enabled: true
-#   severity: 1
+DeprecatedFontsOnSettingsSchema:
+  enabled: true
+  severity: 1
+  ignore:
+    - config/settings_schema.json
 # DeprecatedTag:
 #   enabled: true
 #   severity: 1
