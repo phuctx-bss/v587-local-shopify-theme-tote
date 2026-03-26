@@ -430,6 +430,10 @@
     {% sections 'header-group' %}
     {% sections 'overlay-group' %}
 
+    {% if settings.show_breadcrumbs %}
+      {% render 'breadcrumbs' %}
+    {% endif %}
+
     <main id="MainContent" class="content-for-layout focus-none {% if settings.home_page_slider and template.name == "index" %} home_page_slider {% if settings.home_page_mobile_slider == true %} home-page-mobile-slider{% endif %}{% endif %}" role="main" tabindex="-1">
       {% if settings.home_page_slider and template.name == "index" %}
        <div class="swiper slider-demo">
@@ -443,9 +447,7 @@
       </div>
       {% endif %}
     </main>
-    {% if settings.show_breadcrumbs %}
-      {% render 'breadcrumbs' %}
-    {% endif %}
+    
     {% if settings.home_page_slider == false or  template.name != "index"  %}
       {% sections 'footer-group' %}
     {% endif %}
