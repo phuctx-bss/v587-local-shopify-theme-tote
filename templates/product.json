@@ -122,10 +122,10 @@
         "product_slide1": {
           "type": "product_slide",
           "settings": {
-            "product": "",
+            "product": "neutral-shoulder-bag",
             "color_scheme": "",
             "overlay_opacity": 0.1,
-            "description": "Discover refined silhouettes that blend sophistication with contemporary style"
+            "description": "Highlight products, promos, or seasonal picks to engage visitors."
           }
         },
         "product_slide2": {
