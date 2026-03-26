@@ -67,6 +67,7 @@
     "account_heading": "Welcome to Your Account",
     "account_description": "Manage your profile, track your orders, and enjoy a seamless shopping journey with us.",
     "region_language_type": "dropdown",
+    "rte_type": "custom",
     "sale_badge_color_scheme": "background-1",
     "content_for_index": [],
     "color_schemes": {

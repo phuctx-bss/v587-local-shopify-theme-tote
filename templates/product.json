@@ -92,7 +92,7 @@
         "popup_iRzUce"
       ],
       "settings": {
-        "gallery_type": "thumbs_aside_horizontal",
+        "gallery_type": "thumbs_aside",
         "disable_scrolling": false,
         "mobile_gallery_type": "synchronize",
         "desktop_alignment": "right",
