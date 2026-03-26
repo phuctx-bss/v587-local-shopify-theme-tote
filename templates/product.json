@@ -131,10 +131,10 @@
         "product_slide2": {
           "type": "product_slide",
           "settings": {
-            "product": "",
+            "product": "c-chick-handbag",
             "color_scheme": "",
             "overlay_opacity": 0.1,
-            "description": "Embrace timeless fashion with designs that exude confidence and effortless grace"
+            "description": "Highlight products, promos, or seasonal picks to engage visitors."
           }
         }
       },
