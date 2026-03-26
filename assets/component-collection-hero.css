@@ -36,3 +36,9 @@
   align-self: stretch;
   min-height: 22rem;
 }
+
+@media screen and (min-width: 750px) {
+  .collection-hero__image-container {
+    min-height: 44rem;
+  }
+}
