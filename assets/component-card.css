@@ -151,6 +151,8 @@
 }
 .card-wrapper .product-form__controls-group label.color-swatch:before {
   margin-right: 0.4rem;
+  width: 1.8rem;
+  height: 1.8rem;
 }
 .card-wrapper .product-form__controls-group {
   gap: 0.4rem;
