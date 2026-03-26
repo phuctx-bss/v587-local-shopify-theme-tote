@@ -178,7 +178,9 @@
       "blocks": {
         "image": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/about01_introduce1_img.jpg"
+          }
         }
       },
       "block_order": [
