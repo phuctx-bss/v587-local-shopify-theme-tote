@@ -4050,6 +4050,15 @@
 				},
 				"cart_color_scheme": {
 					"label": "Drawer color scheme"
+				},
+				"show_product_recommendations": {
+					"label": "Show product recommendations"
+				},
+				"product_recommendations_heading": {
+					"label": "Product recommendations heading"
+				},
+				"show_view_shopping_cart_button": {
+					"label": "Show view shopping cart button"
 				}
 			}
 		},

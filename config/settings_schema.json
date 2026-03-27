@@ -1225,6 +1225,30 @@
 				"default": "cover"
 			},
 			{
+				"type": "checkbox",
+				"id": "show_product_recommendations",
+				"default": false,
+				"label": "t:sections.main-cart-items.settings.show_product_recommendations.label"
+			},
+			{
+				"type": "product_list",
+				"id": "product_recommendation_list",
+				"info": "Visible when show recommendation products is enabled.",
+				"label": "t:sections.popular-products.settings.product_list.label"
+			},
+			{
+				"type": "text",
+				"id": "product_recommendations_heading",
+				"default": "Product recommendations",
+				"label": "t:sections.main-cart-items.settings.product_recommendations_heading.label"
+			},
+			{
+				"type": "checkbox",
+				"id": "show_view_shopping_cart_button",
+				"default": false,
+				"label": "t:sections.main-cart-items.settings.show_view_shopping_cart_button.label"
+			},
+			{
 				"type": "header",
 				"content": "t:settings_schema.cart.settings.empty_cart.content"
 			},
