@@ -742,6 +742,11 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
 .product__popup_main .product__description-button {
   display: none;
 }
+
+.quick-add-modal .product__description-button {
+  display: none;
+}
+
 .product__popup .product_info {
   display: flex;
   align-items: center;
