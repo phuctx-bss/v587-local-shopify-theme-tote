@@ -216,6 +216,14 @@
       "settings": {
         "heading_size": "h2",
         "products_to_show": 4,
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_vendor": false,
+        "show_color_count": true,
+        "show_size_count": false,
+        "show_collection": false,
+        "show_desc": false,
+        "columns_mobile": "1",
         "margin_top": "m",
         "margin_bottom": "m"
       }
