@@ -738,6 +738,10 @@ main .shopify-section:first-child.not-margin .section--have-overlay:not(.article
   gap: 1.6rem;
   flex-wrap: wrap;
 }
+
+.product__popup_main .product__description-button {
+  display: none;
+}
 .product__popup .product_info {
   display: flex;
   align-items: center;
