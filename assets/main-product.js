@@ -60,6 +60,49 @@
 			handleScroll();
 };
 
+	const initProductDescriptionToggle = () => {
+		const descriptionWrappers = document.querySelectorAll('.product__description-wrapper');
+		
+		descriptionWrappers.forEach(wrapper => {
+			const description = wrapper.querySelector('.product__description');
+			const toggleButton = wrapper.querySelector('.product__description-show-more');
+			const ellipsis = wrapper.querySelector('.product__description-ellipsis');
+
+			if (!description || !toggleButton) return;
+
+			const checkHeight = () => {
+				const contentHeight = description.scrollHeight;
+				const limitHeight = 200;
+
+				if (contentHeight > limitHeight) {
+					wrapper.classList.add('has-toggle');
+					toggleButton.parentElement.style.display = 'flex';
+				} else {
+					wrapper.classList.remove('has-toggle');
+					toggleButton.parentElement.style.display = 'none';
+				}
+			};
+
+			window.addEventListener('load', checkHeight);
+			window.addEventListener('resize', checkHeight);
+			checkHeight();
+
+			const newButton = toggleButton.cloneNode(true);
+			toggleButton.parentNode.replaceChild(newButton, toggleButton);
+
+			newButton.addEventListener('click', () => {
+				const isExpanded = description.classList.toggle('show-more');
+				const showMoreText = newButton.getAttribute('data-show-more');
+				const showLessText = newButton.getAttribute('data-show-less');
+
+				newButton.textContent = isExpanded ? showLessText : showMoreText;
+				if (ellipsis) {
+					ellipsis.style.display = isExpanded ? 'none' : 'inline';
+				}
+			});
+		});
+	};
+
 	document.addEventListener('scroll', () => revealPopup());
 
 
@@ -67,11 +110,13 @@
 		initProductAccordion();
 		initZoomImage();
 		revealPopup();
+		initProductDescriptionToggle();
 	});
 
 	initProductAccordion();
 	initZoomImage();
 	revealPopup();
+	initProductDescriptionToggle();
 })();
 
 class FloatedForm extends HTMLElement {
