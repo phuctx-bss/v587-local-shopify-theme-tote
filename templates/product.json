@@ -100,7 +100,7 @@
         "slider_direction": "vertical",
         "image_ratio": "portrait",
         "image_fit": "cover",
-        "enable_full_screen": true,
+        "enable_full_screen": false,
         "header_overlay": false,
         "enable_sticky_button": true,
         "variant_media_display": "show_all"
