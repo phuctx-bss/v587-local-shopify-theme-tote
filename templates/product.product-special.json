@@ -143,6 +143,7 @@
         "product_slide1",
         "product_slide2"
       ],
+      "disabled": true,
       "settings": {
         "image_size": "1/1",
         "subheading": "",
@@ -186,6 +187,7 @@
       "block_order": [
         "image"
       ],
+      "disabled": true,
       "settings": {
         "aspect_ratio": "large",
         "full_screen_image_mode": true,
