@@ -44,9 +44,11 @@ DeprecatedTag:
 # EmptyBlockContent:
 #   enabled: true
 #   severity: 1
-# HardcodedRoutes:
-#   enabled: true
-#   severity: 1
+HardcodedRoutes:
+  enabled: true
+  severity: 1
+  ignore:
+    - snippets/main-product-section.liquid
 # ImgWidthAndHeight:
 #   enabled: true
 #   severity: 0
