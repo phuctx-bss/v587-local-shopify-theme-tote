@@ -1,4 +1,4 @@
-<div class="product {% if product.media.size > 0 %}row{% else %}product--no-media{% endif %}">
+<div class="product {% if product.media.size > 0 %}row{% else %}product--no-media{% endif %} {% if gallery_type == 'thumbs_aside'  %} style-thumbs-aside {% endif %}">
 	<div class="{% if gallery_type == 'static_multicolumns_aside' or gallery_type == 'thumbs_aside' or gallery_type == 'thumbs_aside_horizontal' or gallery_type == 'mobile_sliding_bar' %} container {% endif %} product__outer product__outer--{% if gallery_type == 'static_multicolumns_aside' %}static-multicolumns-aside{% elsif gallery_type == 'thumbs_aside' or gallery_type == 'thumbs_aside_horizontal' or gallery_type == 'mobile_sliding_bar' or gallery_type == 'full_horizontal_slider' %}thumbs-aside{% elsif gallery_type == 'static_column_aside' %}static-column-aside{% elsif gallery_type == 'two_column_aside' %}two-column-aside{% endif %}
 		{% if section.settings.desktop_alignment == 'right' %}product__outer--desktop-order{% endif %}
 		{% if section.settings.mobile_alignment == 'after' %}product__outer--mobile-order{% endif %}
@@ -27,7 +27,6 @@
 							{% if gallery_type != 'static_multicolumns_aside' and gallery_type != 'static_column_aside' and gallery_type != 'two_column_aside' %}<div class="swiper-wrapper">{% endif %}
 								{%- liquid
 									assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src'
-									assign media_count = product.media.size 
 								-%}
 
 								{%- if product.selected_or_first_available_variant.featured_media != null -%}
@@ -880,7 +879,7 @@
 															<span>
 																{{ 'products.product.add_to_cart' | t }}
 															</span>
-															<div class="loading-overlay__spinner hidden">
+															<div class="loading-overlay__spinner hidden test">
 																{%- render 'icon-loading' -%}	
 															</div>
 														{%- else -%}
