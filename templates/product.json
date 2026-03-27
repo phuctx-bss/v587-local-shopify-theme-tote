@@ -185,27 +185,12 @@
         "margin_bottom": "m"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
+    "product-recommendations-cart": {
+      "type": "product-recommendations-cart",
       "settings": {
-        "subheading": "",
-        "heading": "You May Also Like",
-        "description": "",
-        "heading_size": "h1",
-        "products_limit": 4,
+        "heading_size": "h2",
         "products_to_show": 4,
-        "image_ratio": "square",
-        "image_fit": "cover",
-        "show_vendor": false,
-        "show_color_count": true,
-        "show_size_count": false,
-        "show_collection": false,
-        "show_desc": false,
-        "columns_mobile": "1",
-        "button_label": "",
-        "button_link": "",
-        "button_style": "simple",
-        "margin_top": "no-indent",
+        "margin_top": "m",
         "margin_bottom": "m"
       }
     }
@@ -214,6 +199,6 @@
     "main",
     "product-slider",
     "banner-with-popup",
-    "product-recommendations"
+    "product-recommendations-cart"
   ]
 }
