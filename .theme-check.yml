@@ -77,6 +77,8 @@ DeprecatedTag:
 MissingTemplate:
   enabled: true
   severity: 0
+  ignore:
+    - layout/theme.liquid
   ignoreMissing: ['snippets/quickview.liquid']
 # OrphanedSnippet:
 #   enabled: true
