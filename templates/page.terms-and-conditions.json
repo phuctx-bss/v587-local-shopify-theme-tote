@@ -11,13 +11,54 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "rich_text_eYBD3z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jbUViM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Terms and Conditions",
+            "heading_size": "h1",
+            "subheading_tag": "div"
+          }
+        },
+        "text_Rb6fRy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HAPAS luôn coi trọng quyền riêng tư của khách hàng và những người truy cập website. Bảo vệ dữ liệu cá nhân của bạn là ưu tiên hàng đầu của chúng tôi trong quá trình vận hành website thương mại này.</p><p>Chính sách bảo mật này được xây dựng để giúp bạn hiểu rõ cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Xin vui lòng đọc kỹ các nội dung dưới đây để biết cách chúng tôi xử lý thông tin của bạn.</p><p> </p><h3><strong>Chúng tôi thu thập những thông tin nào?</strong></h3><p>Khi bạn đặt hàng hoặc đăng ký tài khoản trên website, chúng tôi có thể yêu cầu bạn cung cấp một số thông tin cần thiết như:</p><ul><li>Tên</li><li>Địa chỉ giao hàng</li><li>Địa chỉ email</li><li>Số điện thoại</li><li>Thông tin thanh toán (ví dụ: thông tin thẻ)</li><li>Một số chi tiết khác để hỗ trợ các giao dịch.</li></ul><h3><strong>Khi nào chúng tôi thu thập thông tin?</strong></h3><p>Chúng tôi thu thập thông tin từ bạn khi bạn:</p><ul><li>Truy cập website.</li><li>Đăng ký tài khoản.</li><li>Đặt hàng.</li><li>Điền thông tin vào các biểu mẫu trên website.</li><li>Đăng ký nhận bản tin hoặc email từ chúng tôi.</li></ul><h3><strong>Chúng tôi sử dụng thông tin của bạn như thế nào?</strong></h3><p>Chúng tôi có thể sử dụng thông tin bạn cung cấp để:</p><ul><li>Xử lý các đơn hàng và giao dịch của bạn.</li><li>Quản lý tài khoản của bạn.</li><li>Gửi các bản tin, email quảng cáo hoặc thông tin khuyến mại.</li><li>Thông báo về các cuộc thi, chương trình khuyến mại hoặc khảo sát mà bạn tham gia.</li></ul><h3><strong>Chúng tôi bảo vệ thông tin của bạn như thế nào?</strong></h3><p>Chúng tôi cam kết bảo vệ thông tin cá nhân của bạn bằng các biện pháp an ninh nghiêm ngặt. Dữ liệu của bạn được lưu trữ trên hệ thống máy chủ bảo mật của nhà cung cấp dịch vụ website. Chỉ những người có quyền truy cập đặc biệt mới có thể xem và xử lý thông tin này. Tất cả những người này đều có trách nhiệm bảo mật và giữ kín thông tin của khách hàng.</p><h3><strong>Chúng tôi có chia sẻ thông tin với bên thứ ba không?</strong></h3><p>Chúng tôi <strong>không</strong> bán, trao đổi hoặc chuyển giao thông tin cá nhân của bạn cho bất kỳ bên thứ ba nào mà không có sự đồng ý của bạn. Tuy nhiên, chúng tôi có thể chia sẻ thông tin cần thiết (ví dụ: tên, địa chỉ, số điện thoại) với các đối tác vận chuyển để hoàn tất việc giao hàng cho bạn.</p><h3><strong>Liên kết với bên thứ ba</strong></h3><p>Hiện tại, website của chúng tôi không chứa các liên kết đến sản phẩm hoặc dịch vụ của bên thứ ba.</p><h3><strong>Làm thế nào để hủy đăng ký nhận tin?</strong></h3><p>Nếu bạn không muốn tiếp tục nhận các email hoặc bản tin từ chúng tôi, bạn có thể dễ dàng hủy đăng ký bằng cách làm theo hướng dẫn có sẵn ở cuối mỗi email.</p>"
+          }
+        },
+        "button_RQBwi9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Write CTA",
+            "button_link": "",
+            "button_style": "simple"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jbUViM",
+        "text_Rb6fRy",
+        "button_RQBwi9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
+        "margin_top": "m",
         "margin_bottom": "m"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_eYBD3z"
   ]
 }
