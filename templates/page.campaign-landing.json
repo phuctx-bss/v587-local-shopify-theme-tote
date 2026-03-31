@@ -51,6 +51,32 @@
     "media-banner": {
       "type": "media-banner",
       "blocks": {
+        "media_slide_Wwzfw4": {
+          "type": "media_slide",
+          "settings": {
+            "color_scheme": "background-2",
+            "image": "shopify://shop_images/about01_banner_bkg.jpg",
+            "overlay_opacity": 0.1,
+            "enable_hover": true,
+            "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "description_video": "",
+            "subheading": "Here can be a short phrase introducing your featured content",
+            "heading": "Featured Content",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "description": "Use this space to give context to the image or video, explaining what it represents and why it matters.",
+            "position_content": "bottom",
+            "align_content": "left",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "button_style": "simple",
+            "button_label2": "",
+            "button_link2": "",
+            "button_style2": "secondary",
+            "full_link": true
+          }
+        },
         "media_slide": {
           "type": "media_slide",
           "settings": {
@@ -79,6 +105,7 @@
         }
       },
       "block_order": [
+        "media_slide_Wwzfw4",
         "media_slide"
       ],
       "settings": {
@@ -123,12 +150,15 @@
       "blocks": {
         "image": {
           "type": "image",
-          "settings": {}
+          "settings": {
+            "image": "shopify://shop_images/2.jpg"
+          }
         }
       },
       "block_order": [
         "image"
       ],
+      "disabled": true,
       "settings": {
         "aspect_ratio": "full",
         "full_screen_image_mode": true,
@@ -330,6 +360,7 @@
         "accordion_BMCtEp",
         "accordion_cFPntN"
       ],
+      "disabled": true,
       "settings": {
         "aspect_ratio": "large",
         "heading": "FAQs",
@@ -351,6 +382,7 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/vc_pnt__1.png",
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
@@ -376,6 +408,7 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/banner_vi_tam_358004f291324b8d8b3acbfb176df913_2866b909-504d-4f1a-8089-ebf53c205005.png",
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
