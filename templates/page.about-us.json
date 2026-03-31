@@ -57,6 +57,52 @@
         "margin_bottom": "m"
       }
     },
+    "about_us_LzA8Wf": {
+      "type": "about-us",
+      "blocks": {
+        "image_Uhk3pA": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "image_mBT6Bd": {
+          "type": "image",
+          "settings": {
+            "image_ratio": "portrait"
+          }
+        },
+        "about_us_description_7VDqP3": {
+          "type": "about-us-description",
+          "settings": {
+            "subheading": "Where your story begins",
+            "heading": "This could be your mission statement",
+            "heading_size": "h2",
+            "subheading_tag": "p",
+            "description": "<p>A short explanation of why you do what you do and what you stand for.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_Uhk3pA",
+        "image_mBT6Bd",
+        "about_us_description_7VDqP3"
+      ],
+      "name": "t:sections.about-us.name",
+      "settings": {
+        "subheading": "",
+        "heading": "EXTRAORDINARY EVERYDAY",
+        "heading_size": "h2",
+        "heading_tag": "h2",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "simple",
+        "sticky": false,
+        "margin_top": "xs",
+        "margin_bottom": "m"
+      }
+    },
     "steps": {
       "type": "steps",
       "blocks": {
@@ -112,6 +158,7 @@
   "order": [
     "main",
     "banner",
+    "about_us_LzA8Wf",
     "steps"
   ]
 }
