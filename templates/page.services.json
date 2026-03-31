@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,19 +15,22 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "button_label": "Packaging"
+            "button_label": "Packaging",
+            "button_link": ""
           }
         },
         "tab1": {
           "type": "tab",
           "settings": {
-            "button_label": "Personalization"
+            "button_label": "Personalization",
+            "button_link": ""
           }
         },
         "tab2": {
           "type": "tab",
           "settings": {
-            "button_label": "Gifts"
+            "button_label": "Gifts",
+            "button_link": ""
           }
         }
       },
@@ -46,10 +58,12 @@
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Packaging",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Discover elevated style with personalized packaging, designed to add a touch of luxury to every piece.",
             "position_content": "bottom",
             "align_content": "left",
@@ -68,9 +82,12 @@
       ],
       "settings": {
         "header_overlay": false,
+        "sticky": "sticky-none",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
@@ -78,10 +95,11 @@
     "product-carousel": {
       "type": "product-carousel",
       "settings": {
-        "collection": "",
+        "collection": "hobo-featured-bags",
         "collection_list": [],
         "subheading": "",
         "heading": "Individually Wrap Your Purchases in Style",
+        "heading_tag": "h2",
         "text": "Experience the artistry of our packaging service tailored exclusively for each category of products.",
         "button_label1": "",
         "button_link": "",
@@ -90,6 +108,8 @@
         "image_fit": "cover",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_color_count": true,
+        "show_size_count": false,
         "show_sku": false,
         "show_desc": false,
         "overlay_opacity": 0.3,
@@ -113,6 +133,7 @@
         "full_screen_image_mode": true,
         "heading": "Discover Our Stylish Packaging Solutions",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "<p>From the moment your parcel arrives, indulge in the luxury of our thoughtfully designed packaging.</p>",
         "button_label": "Learn More",
         "button_link": "",
@@ -141,7 +162,8 @@
             "subheading": "",
             "heading": "The History of Accessory Bags: Function to Fashion",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column1": {
@@ -151,7 +173,8 @@
             "subheading": "",
             "heading": "Versatile Accessory Bags for Work and Play",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column2": {
@@ -161,7 +184,8 @@
             "subheading": "",
             "heading": "How to Match Your Accessory Bag with Your Outfit",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         },
         "column3": {
@@ -171,7 +195,8 @@
             "subheading": "",
             "heading": "How to Care for Your Accessory Bags",
             "description": "",
-            "button_label": ""
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
@@ -186,6 +211,7 @@
         "subheading": "",
         "heading": "",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "description": "",
         "enable_full_screen": true,
         "swiper": true,
@@ -194,11 +220,13 @@
         "slideshow_speed": 20,
         "layout_type": "overlay",
         "content_position": "img-top",
+        "always_visible_text": false,
         "on_hover": "show_text",
         "multicolumn_to_show": 2,
         "image_ratio": "landscape",
         "object_fit": "cover",
         "card_heading_size": "h2",
+        "card_heading_tag": "h3",
         "button_label": "",
         "button_style": "simple",
         "button_link": "",
@@ -224,49 +252,63 @@
         "accordion": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Where can I find your lounges?",
+            "subheading_tag": "h3",
             "answer": "<p>Our lounges are located in major cities worldwide, offering a relaxing space to try on our collections and receive personalized style advice.</p>"
           }
         },
         "accordion-1": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "How does your online returns policy work?",
+            "subheading_tag": "h3",
             "answer": "<p>We accept returns within 30 days of purchase for items in their original condition with tags attached. Visit our Returns page for instructions on how to initiate a return.</p>"
           }
         },
         "accordion-2": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Which countries do you deliver to?",
+            "subheading_tag": "h3",
             "answer": "<p>We ship internationally to a wide range of countries. You can check our Shipping Information page for the complete list and specific rates.</p>"
           }
         },
         "accordion-3": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "What should I know about duties, taxes, and border charges?",
+            "subheading_tag": "h3",
             "answer": "<p>Duties and taxes are included at checkout for most regions. However, some international orders may be subject to additional customs fees, which are the responsibility of the customer.</p>"
           }
         },
         "accordion-4": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "How can I collect my order in-store?",
+            "subheading_tag": "h3",
             "answer": "<p>Select the \"Collect In-Store\" option during checkout and pick up your order from any of our participating locations. We’ll notify you when it’s ready for collection.</p>"
           }
         },
         "accordion_BMCtEp": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Is it possible to buy a physical gift card?",
+            "subheading_tag": "h3",
             "answer": "<p>Yes, physical gift cards are available both online and in-store. You can select the amount and add a personalized message for the recipient.</p>"
           }
         },
         "accordion_cFPntN": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Which countries accept Afterpay?",
+            "subheading_tag": "h3",
             "answer": "<p>Afterpay is available in several countries, including the United States, Australia, New Zealand, and the United Kingdom. Check our Payment Options page for the full list.</p>"
           }
         }
@@ -287,9 +329,11 @@
         "aspect_ratio": "large",
         "heading": "FAQs",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "enable_animation": true,
         "slideshow_speed": 4,
         "button_label": "View Customer Care",
+        "button_link": "",
         "button_style": "simple",
         "margin_top": "no-indent",
         "margin_bottom": "m"
@@ -305,14 +349,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Casual",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Perfect for those who appreciate refined yet effortless fashion.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -327,14 +374,17 @@
             "overlay_opacity": 0.1,
             "enable_hover": true,
             "show_video": false,
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description_video": "",
             "subheading": "",
             "heading": "Elegance",
             "heading_size": "h1",
+            "heading_tag": "h2",
             "description": "Sleek pieces that embody simplicity and modern sophistication.",
             "position_content": "bottom",
             "align_content": "left",
             "button_label": "",
+            "button_link": "",
             "button_style": "simple",
             "button_label2": "",
             "button_link2": "",
@@ -349,9 +399,12 @@
       ],
       "settings": {
         "header_overlay": false,
+        "sticky": "sticky-none",
         "layout": "overlay",
+        "title_link": false,
         "gap": false,
         "aspect_ratio": "full",
+        "aspect_ratio_mobile": "full",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
