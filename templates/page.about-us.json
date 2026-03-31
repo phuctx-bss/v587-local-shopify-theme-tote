@@ -77,11 +77,11 @@
         "about_us_description_7VDqP3": {
           "type": "about-us-description",
           "settings": {
-            "subheading": "Where your story begins",
-            "heading": "This could be your mission statement",
-            "heading_size": "h2",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "h1",
             "subheading_tag": "p",
-            "description": "<p>A short explanation of why you do what you do and what you stand for.</p>"
+            "description": "<p>With a deep understanding of women, HAPAS creates handbags designed to meet the needs of the modern woman: <strong>versatile functionality and an elegant minimalist style that inspires and accompanies</strong>.</p><p>Inspired by the popular fashion philosophy of <strong>Dynamic Minimalism</strong>, HAPAS perfects every small detail, ensuring that each bag is not only beautiful but also genuinely practical for everyday life. Simple yet refreshing, every HAPAS bag brings a sense of beauty and newness to its wearer—creating a feeling of belonging and becoming a trusted companion in daily life.</p><h2>Understanding</h2><p>Understanding the psychology of its customers—who love <strong>basic, easy-to-use, and versatile products that are never boring</strong>—HAPAS designs handbags that can be effortlessly paired with many outfits and used in various occasions.</p><h2>Inspiring</h2><p>HAPAS believes that each handbag, when paired with an outfit, highlights the <strong>unique beauty of the wearer</strong>. This becomes a source of inspiration that empowers women to feel more beautiful every day and share that inspiration with those around them.</p><p>More importantly, <strong>HAPAS does not simply sell handbags</strong>—it shares stories and inspiration about beauty. HAPAS is a companion, a source of inspiration, and a brand that deeply understands each of its customers.</p><p>At HAPAS, <strong>every bag tells a story, every story is an adventure, and every adventure begins with a step filled with energy and inspiration.</strong></p>"
           }
         }
       },
