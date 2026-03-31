@@ -155,12 +155,36 @@
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
+    },
+    "rich_text_yPGUyB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3EHDpF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our story",
+            "heading_size": "h2",
+            "subheading_tag": "div"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3EHDpF"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
     }
   },
   "order": [
     "main",
     "banner",
     "about_us_LzA8Wf",
+    "rich_text_yPGUyB",
     "steps"
   ]
 }
