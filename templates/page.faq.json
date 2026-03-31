@@ -16,13 +16,15 @@
           "type": "heading",
           "settings": {
             "heading": "Customer Care",
-            "heading_size": "h2"
+            "heading_size": "h2",
+            "subheading_tag": "div"
           }
         }
       },
       "block_order": [
         "heading"
       ],
+      "disabled": true,
       "settings": {
         "alignment": "center",
         "width": "small",
@@ -39,6 +41,7 @@
             "subheading": "",
             "heading": "Phone Number",
             "heading_size": "h3",
+            "subheading_tag": "p",
             "description": "<p>Kindly note that not all numbers may be accessible or covered by all mobile phone networks. Please also be mindful that we may monitor or record your communications for training and quality control purposes.</p>"
           }
         },
@@ -48,6 +51,7 @@
             "subheading": "",
             "heading": "",
             "heading_size": "h3",
+            "subheading_tag": "p",
             "description": "<p>Call Customer Service on</p><p>+44 (0) 203 402 1444</p>"
           }
         },
@@ -57,6 +61,7 @@
             "subheading": "",
             "heading": "WhatsApp",
             "heading_size": "h3",
+            "subheading_tag": "p",
             "description": "<p>+44 (0) 203 402 1444</p>"
           }
         },
@@ -66,6 +71,7 @@
             "subheading": "",
             "heading": "Email",
             "heading_size": "h3",
+            "subheading_tag": "p",
             "description": "<p>customerservice@madrid.com</p>"
           }
         },
@@ -75,6 +81,7 @@
             "subheading": "",
             "heading": "Post",
             "heading_size": "h3",
+            "subheading_tag": "p",
             "description": "<p>Burberry Limited</p><p>Horseferry House,</p><p>Horseferry Road,</p><p>London</p><p>SW1P 2AW</p><p>United Kingdom</p>"
           }
         }
@@ -86,11 +93,13 @@
         "contact_description_HWV7qB",
         "contact_description_GfzY86"
       ],
+      "disabled": true,
       "settings": {
         "position": "right",
         "enable_form": false,
         "heading": "Contacts",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "text": "",
         "additional_text": "Additional text for contact form.",
         "button_style": "secondary",
@@ -104,49 +113,63 @@
         "accordion": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Where can I find your lounges?",
+            "subheading_tag": "h3",
             "answer": "<p>Our lounges are located in major cities worldwide, offering a relaxing space to try on our collections and receive personalized style advice.</p>"
           }
         },
         "accordion-1": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "How does your online returns policy work?",
+            "subheading_tag": "h3",
             "answer": "<p>We accept returns within 30 days of purchase for items in their original condition with tags attached. Visit our Returns page for instructions on how to initiate a return.</p>"
           }
         },
         "accordion-2": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Which countries do you deliver to?",
+            "subheading_tag": "h3",
             "answer": "<p>We ship internationally to a wide range of countries. You can check our Shipping Information page for the complete list and specific rates.</p>"
           }
         },
         "accordion-3": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "What should I know about duties, taxes, and border charges?",
+            "subheading_tag": "h3",
             "answer": "<p>Duties and taxes are included at checkout for most regions. However, some international orders may be subject to additional customs fees, which are the responsibility of the customer.</p>"
           }
         },
         "accordion-4": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "How can I collect my order in-store?",
+            "subheading_tag": "h3",
             "answer": "<p>Select the \"Collect In-Store\" option during checkout and pick up your order from any of our participating locations. We’ll notify you when it’s ready for collection.</p>"
           }
         },
         "accordion_BMCtEp": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Is it possible to buy a physical gift card?",
+            "subheading_tag": "h3",
             "answer": "<p>Yes, physical gift cards are available both online and in-store. You can select the amount and add a personalized message for the recipient.</p>"
           }
         },
         "accordion_cFPntN": {
           "type": "accordion",
           "settings": {
+            "default_open": false,
             "question": "Which countries accept Afterpay?",
+            "subheading_tag": "h3",
             "answer": "<p>Afterpay is available in several countries, including the United States, Australia, New Zealand, and the United Kingdom. Check our Payment Options page for the full list.</p>"
           }
         }
@@ -164,6 +187,7 @@
         "aspect_ratio": "medium",
         "heading": "FAQs",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "enable_animation": true,
         "slideshow_speed": 4,
         "button_label": "",
