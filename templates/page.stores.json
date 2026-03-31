@@ -9,6 +9,29 @@
  */
 {
   "sections": {
+    "rich_text_WkXD4F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jwRe8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stores",
+            "heading_size": "h1",
+            "subheading_tag": "div"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jwRe8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
+        "margin_top": "s",
+        "margin_bottom": "m"
+      }
+    },
     "about-us": {
       "type": "about-us",
       "blocks": {
@@ -239,29 +262,6 @@
         "button_link": "",
         "button_style": "simple",
         "sticky": false,
-        "margin_top": "no-indent",
-        "margin_bottom": "m"
-      }
-    },
-    "rich_text_WkXD4F": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6jwRe8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stores",
-            "heading_size": "h2",
-            "subheading_tag": "div"
-          }
-        }
-      },
-      "block_order": [
-        "heading_6jwRe8"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "alignment": "left",
-        "width": "medium",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
