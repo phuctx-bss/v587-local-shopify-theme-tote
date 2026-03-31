@@ -70,7 +70,8 @@
         "image_mBT6Bd": {
           "type": "image",
           "settings": {
-            "image_ratio": "portrait"
+            "image": "shopify://shop_images/about01_banner_bkg.jpg",
+            "image_ratio": "landscape"
           }
         },
         "about_us_description_7VDqP3": {
