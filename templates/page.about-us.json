@@ -1,0 +1,112 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Story",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
+        "margin_top": "xs",
+        "margin_bottom": "xs"
+      }
+    },
+    "banner": {
+      "type": "image-banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "",
+        "info_position": "inside",
+        "image_ratio": "adapt",
+        "opacity_overlay": 0,
+        "heading": "",
+        "heading_size": "h1",
+        "text_information": "",
+        "text_align": "center",
+        "text_width": "full",
+        "additional_text": "",
+        "button_label": "",
+        "button_style": "tertiary",
+        "button_link": "",
+        "button_label2": "",
+        "button_style2": "tertiary",
+        "button_link2": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "steps": {
+      "type": "steps",
+      "blocks": {
+        "steps-item": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2021",
+            "heading": "With a deep-rooted passion for craftsmanship and design, our journey began with a vision to create something extraordinary.",
+            "description": "<p>Starting in a small studio, we dedicated ourselves to mastering the art of shoemaking, driven by the belief that quality and innovation should go hand in hand. </p><p>Our goal was to craft products that not only looked beautiful but also offered unparalleled comfort and durability. Our founder was driven by a passion for design and a love for the craft.</p>"
+          }
+        },
+        "steps-item1": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2022",
+            "heading": "With no formal training, they spent years honing their skills, learning the intricacies of production through trial and error.",
+            "description": "<p>This self-taught approach gave our brand a unique perspective, allowing us to merge traditional techniques with contemporary designs in a way that set our work apart. As the reputation for excellence grew, so did the ambition to expand operations and meet the increasing demand for our products.</p><h2>“Here, every step of the production process is a testament to our commitment to quality.”</h2><p>After careful consideration, a decision was made to establish a new facility that blended the charm of old-world craftsmanship with the potential for modern manufacturing.</p>"
+          }
+        },
+        "steps-item2": {
+          "type": "steps-item",
+          "settings": {
+            "date": "2023",
+            "heading": "From selecting the finest materials to employing skilled artisans who share our passion, we ensure that each product not only meets but exceeds the expectations of our customers.",
+            "description": "<p>We take pride in every piece we create, knowing that it reflects our dedication to excellence. Our commitment to innovation is evident in every collection we release. We embrace cutting-edge technology, from the use of sustainable materials to the incorporation of advanced design features like animation and parallax effects.</p><p>Yet, even as we push the boundaries of modern design, we remain deeply rooted in the traditions that have guided us from the beginning.</p>"
+          }
+        },
+        "steps-item3": {
+          "type": "steps-item",
+          "settings": {
+            "date": "Nowadays",
+            "heading": "As we continue to grow, our mission remains the same: to create exceptional products that blend form and function, style and substance.",
+            "description": "<p>We invite you to explore our collections, each one a testament to the artistry and dedication that define our brand. Whether you’re looking for a statement piece or a timeless classic, you’ll find something that resonates with your personal style.</p><p>Our story is one of passion, perseverance, and a relentless pursuit of excellence. It’s a story that continues to evolve, shaped by the people who choose our products and the journeys they take. As we move forward, we are committed to staying true to our roots while embracing new challenges and opportunities.</p><p>We believe that the key to success lies in staying connected to our customers. Your feedback and stories inspire us to keep innovating and improving. We’re not just creating products; we’re building a community of individuals who value quality, style, and authenticity.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "steps-item",
+        "steps-item1",
+        "steps-item2",
+        "steps-item3"
+      ],
+      "settings": {
+        "image_ratio": "portrait",
+        "heading_size": "h2",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner",
+    "steps"
+  ]
+}
