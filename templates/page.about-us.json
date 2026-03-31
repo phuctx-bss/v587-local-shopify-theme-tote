@@ -15,8 +15,9 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Our Story",
-            "heading_size": "h2"
+            "heading": "About us",
+            "heading_size": "h2",
+            "subheading_tag": "div"
           }
         }
       },
@@ -36,10 +37,12 @@
         "full_width": true,
         "color_scheme": "",
         "info_position": "inside",
+        "image": "shopify://shop_images/untitled_design__1__33ada0c3e79742cba121a23edc3b5ee7_1024x1024_bc54040b-0929-47a1-9820-0086e484cc90.png",
         "image_ratio": "adapt",
         "opacity_overlay": 0,
         "heading": "",
         "heading_size": "h1",
+        "heading_tag": "h2",
         "text_information": "",
         "text_align": "center",
         "text_width": "full",
@@ -99,6 +102,8 @@
       "settings": {
         "image_ratio": "portrait",
         "heading_size": "h2",
+        "heading_tag": "p",
+        "sticky": false,
         "margin_top": "no-indent",
         "margin_bottom": "no-indent"
       }
