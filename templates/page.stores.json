@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "store": {
@@ -8,9 +17,12 @@
           "settings": {
             "default_open": true,
             "heading": "HAPAS Bangkok Central",
+            "heading_size": "h3",
+            "subheading_tag": "p",
             "subheading": "123 Sukhumvit RoadBangkok, Thailand",
             "description": "<p>A short explanation of why you do what you do and what you stand for.</p>",
-            "image_ratio": "portrait"
+            "image": "shopify://shop_images/vc_pnt__1.png",
+            "image_ratio": "landscape"
           }
         },
         "chiang_mai": {
@@ -18,9 +30,12 @@
           "settings": {
             "default_open": false,
             "heading": "HAPAS Chiang Mai",
+            "heading_size": "h3",
+            "subheading_tag": "p",
             "subheading": "456 Nimmanhaemin RoadChiang Mai, Thailand",
             "description": "<p>456 Nimmanhaemin RoadChiang Mai, Thailand</p>",
-            "image_ratio": "portrait"
+            "image": "shopify://shop_images/vhm__1.png",
+            "image_ratio": "landscape"
           }
         },
         "phuket": {
@@ -28,9 +43,12 @@
           "settings": {
             "default_open": false,
             "heading": "HAPAS Phuket",
+            "heading_size": "h3",
+            "subheading_tag": "p",
             "subheading": "789 Beach RoadPhuket, Thailand",
             "description": "<p>Open at 9.am - 9.pm daily</p>",
-            "image_ratio": "portrait"
+            "image": "shopify://shop_images/hapas_times_city__1.jpg",
+            "image_ratio": "landscape"
           }
         }
       },
@@ -42,6 +60,8 @@
       "settings": {
         "heading": "Our Stores",
         "heading_size": "h2",
+        "heading_tag": "h2",
+        "sticky": false,
         "margin_top": "xs",
         "margin_bottom": "m"
       }
