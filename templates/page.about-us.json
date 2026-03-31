@@ -63,7 +63,8 @@
         "image_Uhk3pA": {
           "type": "image",
           "settings": {
-            "image_ratio": "portrait"
+            "image": "shopify://shop_images/482233120_986117143619428_6385709316375419671_n_04fa0a7209534058ab1f54de63c900df.jpg",
+            "image_ratio": "landscape"
           }
         },
         "image_mBT6Bd": {
