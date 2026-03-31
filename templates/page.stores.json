@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "about-us": {
@@ -21,6 +30,7 @@
             "subheading": "Roma, Italy",
             "heading": "Eleganza Roma Boutique",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>This boutique, designed in collaboration with the acclaimed Italian architect Renzo Piano, blends the rich history of fashion with cutting-edge contemporary design.</p>"
           }
         },
@@ -30,6 +40,7 @@
             "subheading": "Address",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Via Condotti, 85, Rome, 00187, Italy</p>"
           }
         },
@@ -39,6 +50,7 @@
             "subheading": "Opening Hours",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Monday to Friday: 9:00 AM - 7:00 PM</p><p>Saturday: 10:00 AM - 6:00 PM</p><p>Sunday: Closed</p>"
           }
         },
@@ -48,6 +60,7 @@
             "subheading": "Contacts",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>+39 02 1234567</p><p>info@eleganzamilanoboutique.com</p>"
           }
         }
@@ -62,13 +75,15 @@
       ],
       "settings": {
         "subheading": "",
-        "heading": "Stores",
+        "heading": "",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "description": "",
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
-        "margin_top": "xs",
+        "sticky": false,
+        "margin_top": "no-indent",
         "margin_bottom": "m"
       }
     },
@@ -93,6 +108,7 @@
             "subheading": "New York, USA",
             "heading": "Manhattan Luxe Boutique",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Located in the heart of Manhattan, this boutique was designed in partnership with acclaimed architect Frank Gehry. The interior merges bold modernism with classic New York elegance, providing a unique backdrop for our curated collection of high-end fashion.</p>"
           }
         },
@@ -102,6 +118,7 @@
             "subheading": "Address",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>5th Avenue, 789, New York, NY 10022, USA</p>"
           }
         },
@@ -111,6 +128,7 @@
             "subheading": "Opening Hours",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Monday to Saturday: 10:00 AM - 9:00 PM</p><p>Sunday: 11:00 AM - 6:00 PM</p>"
           }
         },
@@ -120,6 +138,7 @@
             "subheading": "Contacts",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>+1 212-555-7890</p><p>info@manhattanluxeboutique.com</p>"
           }
         }
@@ -136,10 +155,12 @@
         "subheading": "",
         "heading": "",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "description": "",
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
+        "sticky": false,
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
@@ -165,6 +186,7 @@
             "subheading": "Berlin, Germany",
             "heading": "Urban Elegance Boutique",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>The boutique, crafted in collaboration with renowned German designer Axel Vervoordt, captures the minimalist essence of modern Berlin. The space is an artful blend of industrial chic and contemporary luxury, offering a serene escape from the bustling city streets.</p>"
           }
         },
@@ -174,6 +196,7 @@
             "subheading": "Address",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Kantstraße 159, 10623 Berlin, Germany</p>"
           }
         },
@@ -183,6 +206,7 @@
             "subheading": "Opening Hours",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>Monday to Friday: 10:00 AM - 7:00 PM</p><p>Saturday: 10:00 AM - 6:00 PM</p><p>Sunday: Closed</p>"
           }
         },
@@ -192,6 +216,7 @@
             "subheading": "Contacts",
             "heading": "",
             "heading_size": "h2",
+            "subheading_tag": "p",
             "description": "<p>+49 30 12345678</p><p>info@urbaneleganceboutique.com</p>"
           }
         }
@@ -208,16 +233,42 @@
         "subheading": "",
         "heading": "",
         "heading_size": "h2",
+        "heading_tag": "h2",
         "description": "",
         "button_label": "",
         "button_link": "",
         "button_style": "simple",
+        "sticky": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
+    },
+    "rich_text_WkXD4F": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6jwRe8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stores",
+            "heading_size": "h2",
+            "subheading_tag": "div"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6jwRe8"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "alignment": "left",
+        "width": "medium",
         "margin_top": "no-indent",
         "margin_bottom": "m"
       }
     }
   },
   "order": [
+    "rich_text_WkXD4F",
     "about-us",
     "about-us-1",
     "about-us-2"
