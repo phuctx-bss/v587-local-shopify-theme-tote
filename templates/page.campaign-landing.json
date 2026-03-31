@@ -55,6 +55,7 @@
           "type": "media_slide",
           "settings": {
             "color_scheme": "",
+            "image": "shopify://shop_images/banner_14_3_451fd83945f14d328ac9587ecbc53c9a_b7b43d77-ad06-4efb-b090-5701edc94313.png",
             "overlay_opacity": 0.1,
             "enable_hover": false,
             "show_video": false,
@@ -158,6 +159,7 @@
         "column": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/mg_5250_119179f3b0944e538322800bbb36b723_master.jpg",
             "overlay_opacity": 0.2,
             "subheading": "",
             "heading": "The History of Accessory Bags: Function to Fashion",
@@ -169,6 +171,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bac9484_b6e80066243e4711930c0b120fe433f4_grande_24222578-ef83-4cc7-8fe0-25ad2bc8d9b4.jpg",
             "overlay_opacity": 0.2,
             "subheading": "",
             "heading": "Versatile Accessory Bags for Work and Play",
@@ -180,6 +183,7 @@
         "column2": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/6.1_f099ac4bee7e45d688254fae72e65fc6_master.jpg",
             "overlay_opacity": 0.2,
             "subheading": "",
             "heading": "How to Match Your Accessory Bag with Your Outfit",
@@ -191,6 +195,7 @@
         "column3": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/bac9261_df4c3b1a0d764fa3ad0ed1e5820fa773_grande_9157217f-14c1-4a35-9166-0685f012e25b.jpg",
             "overlay_opacity": 0.2,
             "subheading": "",
             "heading": "How to Care for Your Accessory Bags",
@@ -223,7 +228,7 @@
         "always_visible_text": false,
         "on_hover": "show_text",
         "multicolumn_to_show": 2,
-        "image_ratio": "landscape",
+        "image_ratio": "portrait",
         "object_fit": "cover",
         "card_heading_size": "h2",
         "card_heading_tag": "h3",
