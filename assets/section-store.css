@@ -1,0 +1,131 @@
+.store__item {
+    display: flex;
+    gap: 2.4rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1100px) {
+    .store__item {
+        flex-wrap: nowrap;
+    }
+}
+
+.store__description {
+    flex: auto;
+    width: 100%;
+    position: static;
+    top: 2.4rem;
+}
+
+@media screen and (min-width: 1100px) {
+    .store__description {
+        flex: 1;
+        width: auto;
+    }
+
+    .store__description--sticky {
+        position: sticky;
+    }
+}
+
+.store__description--block {
+    max-width: 100%;
+    border-bottom: 0.1rem solid rgba(var(--color-border));
+}
+
+.store__description--block:first-child {
+    border-top: 0.1rem solid rgba(var(--color-border));
+}
+
+.store__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+    cursor: pointer;
+    transition: opacity var(--duration-default) ease;
+}
+
+.store__toggle:hover {
+    opacity: 0.7;
+}
+
+.store__toggle-group {
+    display: flex;
+    align-items: center;
+}
+
+.store__question {
+    margin: 0;
+    transition: var(--duration-default);
+}
+
+.store__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store__icon svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: var(--duration-default);
+    transform: rotate(0deg);
+}
+
+.store__description--block.active .store__icon svg {
+    transform: rotate(180deg);
+}
+
+.store__answer {
+    display: none;
+    padding: 0;
+    padding-bottom: 1.6rem;
+}
+
+.store__answer-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.store__answer-info {
+    flex: 1;
+}
+
+.store__answer-image {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 750px) {
+    .store__answer-image {
+        max-width: 60rem;
+    }
+}
+
+.store__image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    border-radius: var(--border-radius-media);
+}
+
+.store__image-wrapper--landscape,
+.store__answer-image.store__image-wrapper--landscape {
+    aspect-ratio: 10/7;
+}
+
+.store__image-wrapper--portrait,
+.store__answer-image.store__image-wrapper--portrait {
+    aspect-ratio: 10/13;
+}
+
+.store__image-wrapper--square,
+.store__answer-image.store__image-wrapper--square {
+    aspect-ratio: 1/1;
+}
