@@ -79,11 +79,6 @@
 	{% render 'section-margin' %}
 {%- endstyle -%}
 
-{%- assign sort_by = collection.sort_by
-	| default: collection.default_sort_by
--%}
-{%- assign count = 0 -%}
-
 {% liquid
 	assign collection_description = collection.description
 	if collection.id == blank
@@ -100,9 +95,7 @@
 			{%- if section.settings.enable_filtering == false and section.settings.enable_sorting == false and section.settings.enable_per_row_button == false and section.settings.enable_tag == false -%} collection-wrapper_no-facets {% endif %}
 		'
 	>
-		{%- if collection.all_products_count > 0
-			and collection.products_count > 0
-		-%}
+		{%- if collection.all_products_count > 0-%}
 			{%- if section.settings.enable_filtering
 				or section.settings.enable_tag
 				or section.settings.enable_sorting
