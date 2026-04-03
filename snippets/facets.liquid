@@ -98,8 +98,8 @@
 					<div class="facets__sort-wrapper 
 						{% if enable_filtering == false %} facets__sort-wrapper_no-filter {% endif %} facets__sort-wrapper_vertical" >
 						<div class="facets__product-count" role="status">
-							<p class="facets__product-count-text secondary_text">
-								{{ 'products.facets.items' | t }}: {{ results.all_products_count }}
+							<p id="ProductCountTotal" class="facets__product-count-text secondary_text">
+								{{ 'products.facets.items' | t }}: {{ results.products_count }}
 							</p>
 						</div>		
 						{% if enable_per_row_button %}
@@ -164,7 +164,6 @@
 				</div>
 
 				{% if enable_filtering %}
-					{% assign countFilters = results.filters | size %}
 					<div class="facets__container facets__container--vertical {% if filter_type == "horizontal" %} facets__container--horizontal{% endif %}">
 						<div id="FacetsWrapperDesktop" class="facets__wrapper facets__wrapper--vertical 
 							{% if filter_type == "horizontal" %} facets__wrapper--horizontal{% endif %}">
@@ -325,8 +324,6 @@
 											</div>
 										</details>
 									{% when 'price_range' %}
-										{%- assign max_price_amount = filter.range_max | money | strip_html | escape -%}
-		
 										{% if filter.range_max != 0 %}
 											<details id="Details-{{ forloop.index }}-{{ section.id }}" 
 												class="disclosure-has-popup facets__disclosure facets__disclosure-price js-filter" 
