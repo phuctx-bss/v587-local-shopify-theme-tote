@@ -6,6 +6,7 @@ AssetPreload:
   severity: 1
   ignore:
     - 'layout/theme.liquid'
+    - 'sections/main-collection-product-grid.liquid'
 # BlockIdUsage:
 #   enabled: true
 #   severity: 1
