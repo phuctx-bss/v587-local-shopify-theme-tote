@@ -194,16 +194,22 @@ class FacetFiltersForm extends HTMLElement {
 	}
 
 	static renderProductCount(html) {
-		const count = new DOMParser()
-			.parseFromString(html, "text/html")
-			.getElementById("ProductCount").innerHTML;
+		const parsedHTML = new DOMParser().parseFromString(html, "text/html");
+		const count = parsedHTML.getElementById("ProductCount").innerHTML;
 		const container = document.getElementById("ProductCount");
 		const containerDesktop = document.getElementById("ProductCountDesktop");
-		container.innerHTML = count;
-		container.classList.remove("loading");
+		const containerTotal = document.getElementById("ProductCountTotal");
+
+		if (container) {
+			container.innerHTML = count;
+			container.classList.remove("loading");
+		}
 		if (containerDesktop) {
 			containerDesktop.innerHTML = count;
 			containerDesktop.classList.remove("loading");
+		}
+		if (containerTotal) {
+			containerTotal.innerHTML = parsedHTML.getElementById("ProductCountTotal").innerHTML;
 		}
 	}
 
