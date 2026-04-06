@@ -4591,7 +4591,7 @@ menu-drawer + .header__search {
 #search-modal {
   width: 44rem;
   max-width: 100%;
-  height: 100dvh;
+  height: 100vh;
   z-index: 999;
   position: fixed;
   right: 0;
