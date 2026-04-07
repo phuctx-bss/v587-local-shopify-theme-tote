@@ -6,36 +6,65 @@
 
 <script>
   (function () {
-    const initStoreCollapse = () => {
-      document.querySelectorAll('.store__toggle').forEach((toggle) => {
-        toggle.addEventListener('click', function () {
-          const parent = this.parentElement;
-          const answer = this.nextElementSibling;
-          const icon = this.querySelector('.store__icon svg');
+    const initStoreFilters = () => {
+      const provinceSelect = document.getElementById('Filter-Province-{{ section.id }}');
+      const citySelect = document.getElementById('Filter-City-{{ section.id }}');
+      if (!provinceSelect || !citySelect) return;
+      const cityOptions = Array.from(citySelect.options).filter((opt) => opt.value !== '');
 
-          if (!parent.classList.contains('active')) {
-            // Close other active blocks in the same section
-            const siblings = parent.parentElement.querySelectorAll('.store__description--block.active');
-            siblings.forEach((sibling) => {
-              sibling.classList.remove('active');
-              const siblingAnswer = sibling.querySelector('.store__answer');
-              if (siblingAnswer) {
-                $(siblingAnswer).stop().slideUp(300);
-              }
-            });
+      const filterStores = () => {
+        const provinceHandle = provinceSelect.value;
+        const cityHandle = citySelect.value;
+        const blocks = document.querySelectorAll('.store__description--block');
+        const noResults = document.querySelector('.store__no-results');
 
-            parent.classList.add('active');
-            $(answer).stop().slideDown(300);
-          } else {
-            parent.classList.remove('active');
-            $(answer).stop().slideUp(300);
+        let anyVisible = false;
+        blocks.forEach((block) => {
+          const blockProvince = block.dataset.province;
+          const blockCity = block.dataset.city;
+
+          let show = true;
+          if (provinceHandle && blockProvince !== provinceHandle) {
+            show = false;
           }
+          if (cityHandle && blockCity !== cityHandle) {
+            show = false;
+          }
+
+          block.style.display = show ? 'block' : 'none';
+          if (show) anyVisible = true;
         });
+
+        if (noResults) {
+          if (anyVisible) {
+            noResults.classList.add('hidden');
+          } else {
+            noResults.classList.remove('hidden');
+          }
+        }
+      };
+
+      provinceSelect.addEventListener('change', function () {
+        const provinceHandle = this.value;
+        citySelect.innerHTML = '<option value="">City</option>';
+
+        if (!provinceHandle) {
+          citySelect.disabled = true;
+          citySelect.value = '';
+        } else {
+          citySelect.disabled = false;
+          const filteredOptions = cityOptions.filter((opt) => opt.dataset.province === provinceHandle);
+          filteredOptions.forEach((opt) => citySelect.add(opt.cloneNode(true)));
+          citySelect.value = '';
+        }
+        filterStores();
       });
+
+      citySelect.addEventListener('change', filterStores);
     };
 
-    document.addEventListener('DOMContentLoaded', initStoreCollapse);
-    document.addEventListener('shopify:section:load', initStoreCollapse);
+    document.addEventListener('DOMContentLoaded', initStoreFilters);
+    document.addEventListener('shopify:section:load', initStoreFilters);
   })();
 </script>
 
@@ -44,66 +73,66 @@
     {% render 'section-header', section_heading_tag: section.settings.heading_tag %}
   {% endif %}
 
+  <p class="store__filters-title">{{ 'sections.stores.filters_title' | t }}</p>
+  <div class="store__filters">
+    <div class="store__filter-item">
+      <div class="select">
+        <select id="Filter-Province-{{ section.id }}" class="select__select">
+          <option value="">Province</option>
+          {% for province in shop.metaobjects.province.values %}
+            <option value="{{ province.system.handle }}">{{ province.name }}</option>
+          {% endfor %}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+    </div>
+    <div class="store__filter-item">
+      <div class="select">
+        <select id="Filter-City-{{ section.id }}" class="select__select" disabled>
+          <option value="">City</option>
+          {% for city in shop.metaobjects.city.values %}
+            <option value="{{ city.system.handle }}" data-province="{{ city.province.value.system.handle }}">
+              {{ city.name }}
+            </option>
+          {% endfor %}
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+    </div>
+  </div>
+
   <div class="store__item">
     <div class="store__description">
-      {% for block in section.blocks %}
-        {% if block.type == 'store-description' %}
-          {% if block.settings.heading != blank or block.settings.description != blank %}
-            <div
-              class="store__description--block {% if block.settings.default_open %} active {% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              <div class="store__toggle">
-                <div class="store__toggle-group">
-                  {% if block.settings.heading != blank %}
-                    {% assign subheading_tag = block.settings.subheading_tag %}
-                    <{{ subheading_tag }} class="store__description--heading {{ block.settings.heading_size }}">
-                      {{- block.settings.heading -}}
-                    </{{ subheading_tag }}>
-                  {% endif %}
-                </div>
-                <div class="store__icon">
-                  {% render 'icon-caret' %}
-                </div>
-              </div>
+      {% for store in shop.metaobjects.store_locator.values %}
+        <div
+          class="store__description--block"
+          data-province="{{ store.city.value.province.value.system.handle }}"
+          data-city="{{ store.city.value.system.handle }}"
+        >
+          <div class="store__header">
+            <h3 class="store__name {{ section.settings.heading_size }}">
+              {{- store.name -}}
+            </h3>
+            {% if store.directions != blank %}
+              <a href="{{ store.directions }}" class="store__directions link underlined-link" target="_blank">
+                Get directions
+              </a>
+            {% endif %}
+          </div>
 
-              <div
-                class="store__answer"
-                {% if block.settings.default_open %}
-                  style="display: block;"
-                {% endif %}
-              >
-                <div class="store__answer-inner">
-                  <div class="store__answer-info">
-                    {% if block.settings.subheading != blank %}
-                      <p class="store__description--subheading subtitle {% if block.settings.heading == blank %} no_heading {% endif %}">
-                        {{ block.settings.subheading }}
-                      </p>
-                    {% endif %}
-                    {% if block.settings.description != blank %}
-                      <div class="store__description--description">{{ block.settings.description }}</div>
-                    {% endif %}
-                  </div>
-
-                  {% if block.settings.image != blank %}
-                    <div class="store__answer-image store__image-wrapper--{{ block.settings.image_ratio }}">
-                      {{
-                        block.settings.image
-                        | image_url: width: 3840
-                        | image_tag:
-                          class: 'store__image',
-                          loading: 'lazy',
-                          width: block.settings.image.width,
-                          widths: '375, 550, 750, 1100'
-                      }}
-                    </div>
-                  {% endif %}
-                </div>
-              </div>
-            </div>
-          {% endif %}
-        {% endif %}
+          <div class="store__info">
+            {% if store.address != blank %}
+              <p class="store__address">
+                {{ store.address }}
+              </p>
+            {% endif %}
+            {% if store.description != blank %}
+              <div class="store__description--content">{{ store.description | metafield_tag }}</div>
+            {% endif %}
+          </div>
+        </div>
       {% endfor %}
+      <p class="store__no-results hidden">{{ 'sections.stores.no_results' | t }}</p>
     </div>
   </div>
 </div>
@@ -266,139 +295,10 @@
       "label": "t:sections.all.section-margin.margin_bottom.label"
     }
   ],
-  "blocks": [
-    {
-      "type": "store-description",
-      "name": "Store",
-      "limit": 10,
-      "settings": [
-        {
-          "type": "checkbox",
-          "id": "default_open",
-          "default": false,
-          "label": "Open by default"
-        },
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Store Name",
-          "label": "t:sections.all.heading.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h3",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h3",
-          "label": "t:sections.all.heading_size.label"
-        },
-        {
-          "type": "select",
-          "id": "subheading_tag",
-          "label": "t:sections.all.heading.tag",
-          "options": [
-            {
-              "value": "h1",
-              "label": "H1"
-            },
-            {
-              "value": "h2",
-              "label": "H2"
-            },
-            {
-              "value": "h3",
-              "label": "H3"
-            },
-            {
-              "value": "h4",
-              "label": "H4"
-            },
-            {
-              "value": "h5",
-              "label": "H5"
-            },
-            {
-              "value": "h6",
-              "label": "H6"
-            },
-            {
-              "value": "div",
-              "label": "div"
-            },
-            {
-              "value": "p",
-              "label": "p"
-            },
-            {
-              "value": "span",
-              "label": "span"
-            }
-          ],
-          "default": "p"
-        },
-        {
-          "type": "text",
-          "id": "subheading",
-          "default": "Address line",
-          "label": "t:sections.all.subheading.label"
-        },
-        {
-          "type": "richtext",
-          "id": "description",
-          "default": "<p>Store details or hours.</p>",
-          "label": "t:sections.all.text.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.all.image.label"
-        },
-        {
-          "type": "select",
-          "id": "image_ratio",
-          "options": [
-            {
-              "value": "landscape",
-              "label": "t:sections.all.image_ratio.options__1.label"
-            },
-            {
-              "value": "portrait",
-              "label": "t:sections.all.image_ratio.options__2.label"
-            },
-            {
-              "value": "square",
-              "label": "t:sections.all.image_ratio.options__3.label"
-            }
-          ],
-          "default": "landscape",
-          "label": "t:sections.steps.settings.image_ratio.label"
-        }
-      ]
-    }
-  ],
+  "blocks": [],
   "presets": [
     {
-      "name": "Stores",
-      "blocks": [
-        {
-          "type": "store-description"
-        },
-        {
-          "type": "store-description"
-        }
-      ]
+      "name": "Stores"
     }
   ]
 }
