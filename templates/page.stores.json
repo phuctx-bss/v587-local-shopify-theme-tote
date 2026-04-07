@@ -26,10 +26,11 @@
         "column_84MD34": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/vc_pnt__1.png",
             "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "Feature Title Here",
-            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "subheading": "HAPAS BANGKOK",
+            "heading": "BANGKOK",
+            "description": "",
             "button_label": "Learn More",
             "button_link": ""
           }
@@ -37,10 +38,11 @@
         "column_NhQyhA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/vhm__1.png",
             "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "Feature Title Here",
-            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "subheading": "HAPAS Chiang Mai",
+            "heading": "456 Nimmanhaemin RoadChiang Mai, Thailand",
+            "description": "",
             "button_label": "Learn More",
             "button_link": ""
           }
@@ -48,10 +50,11 @@
         "column_88DHDd": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/vc_pnt__1.png",
             "overlay_opacity": 0.2,
-            "subheading": "",
-            "heading": "Feature Title Here",
-            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "subheading": "HAPAS Phuket",
+            "heading": "789 Beach RoadPhuket, Thailand",
+            "description": "",
             "button_label": "Learn More",
             "button_link": ""
           }
@@ -64,13 +67,13 @@
       ],
       "name": "t:sections.multicolumn.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "subheading": "",
         "heading": "NOTABLE HAPAS STORES",
         "heading_size": "h2",
         "heading_tag": "h2",
         "description": "",
-        "enable_full_screen": true,
+        "enable_full_screen": false,
         "swiper": false,
         "stop_autoplay": true,
         "navigation": false,
@@ -80,9 +83,9 @@
         "always_visible_text": false,
         "on_hover": "show_text",
         "multicolumn_to_show": 3,
-        "image_ratio": "portrait",
-        "object_fit": "cover",
-        "card_heading_size": "h1",
+        "image_ratio": "landscape",
+        "object_fit": "contain",
+        "card_heading_size": "h2",
         "card_heading_tag": "h3",
         "button_label": "",
         "button_style": "simple",
