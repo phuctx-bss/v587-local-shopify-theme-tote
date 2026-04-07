@@ -11,52 +11,6 @@
   "sections": {
     "store": {
       "type": "stores",
-      "blocks": {
-        "bangkok_central": {
-          "type": "store-description",
-          "settings": {
-            "default_open": true,
-            "heading": "HAPAS Bangkok Central",
-            "heading_size": "h3",
-            "subheading_tag": "p",
-            "subheading": "123 Sukhumvit RoadBangkok, Thailand",
-            "description": "<p>A short explanation of why you do what you do and what you stand for.</p>",
-            "image": "shopify://shop_images/vc_pnt__1.png",
-            "image_ratio": "landscape"
-          }
-        },
-        "chiang_mai": {
-          "type": "store-description",
-          "settings": {
-            "default_open": false,
-            "heading": "HAPAS Chiang Mai",
-            "heading_size": "h3",
-            "subheading_tag": "p",
-            "subheading": "456 Nimmanhaemin RoadChiang Mai, Thailand",
-            "description": "<p>456 Nimmanhaemin RoadChiang Mai, Thailand</p>",
-            "image": "shopify://shop_images/vhm__1.png",
-            "image_ratio": "landscape"
-          }
-        },
-        "phuket": {
-          "type": "store-description",
-          "settings": {
-            "default_open": false,
-            "heading": "HAPAS Phuket",
-            "heading_size": "h3",
-            "subheading_tag": "p",
-            "subheading": "789 Beach RoadPhuket, Thailand",
-            "description": "<p>Open at 9.am - 9.pm daily</p>",
-            "image": "shopify://shop_images/hapas_times_city__1.jpg",
-            "image_ratio": "landscape"
-          }
-        }
-      },
-      "block_order": [
-        "bangkok_central",
-        "chiang_mai",
-        "phuket"
-      ],
       "settings": {
         "heading": "Our Stores",
         "heading_size": "h2",
@@ -65,9 +19,81 @@
         "margin_top": "xs",
         "margin_bottom": "m"
       }
+    },
+    "multicolumn_YUDdjc": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_84MD34": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Feature Title Here",
+            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "column_NhQyhA": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Feature Title Here",
+            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "column_88DHDd": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 0.2,
+            "subheading": "",
+            "heading": "Feature Title Here",
+            "description": "<p>This section can showcase current achievements, sustainability efforts, or the future direction of the brand.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_84MD34",
+        "column_NhQyhA",
+        "column_88DHDd"
+      ],
+      "name": "t:sections.multicolumn.name",
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "NOTABLE HAPAS STORES",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "description": "",
+        "enable_full_screen": true,
+        "swiper": false,
+        "stop_autoplay": true,
+        "navigation": false,
+        "slideshow_speed": 20,
+        "layout_type": "standard",
+        "content_position": "img-top",
+        "always_visible_text": false,
+        "on_hover": "show_text",
+        "multicolumn_to_show": 3,
+        "image_ratio": "portrait",
+        "object_fit": "cover",
+        "card_heading_size": "h1",
+        "card_heading_tag": "h3",
+        "button_label": "",
+        "button_style": "simple",
+        "button_link": "",
+        "margin_top": "no-indent",
+        "margin_bottom": "m"
+      }
     }
   },
   "order": [
-    "store"
+    "store",
+    "multicolumn_YUDdjc"
   ]
 }
