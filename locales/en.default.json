@@ -460,6 +460,10 @@
     },
     "recently_viewed": {
       "empty_message": "You haven't viewed any products yet."
+    },
+    "stores": {
+      "filters_title": "Please select a location to find your nearest HAPAS store:",
+      "no_results": "There are no stores near you."
     }
   },
   "localization": {
