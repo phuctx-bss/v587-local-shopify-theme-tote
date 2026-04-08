@@ -346,7 +346,7 @@
 					</div>
 				{%- endif -%}
 				<div class="product-parameters {% if settings.show_on_mobile %} quick-add-block-enable{% endif %}">
-					{% if true %}
+					{% if show_color_count %}
 						{%- unless product_card_product.has_only_default_variant -%}
 							{%- for option in product_card_product.options_with_values -%}
 								{% liquid
@@ -386,7 +386,7 @@
 								{% if settings.type_color_swatch == 'custom' and color_swatch %}
 									{% if settings.product_color_option_display == 'value' %}
 										<div class="product-form__controls product_color-count js-color-swatches">
-											<div class="product-form__controls-group {{ option.name | handle }}">
+											<div class="product-form__controls-group">
 												{% render 'product-card-variant-options',
 													product: product_card_product,
 													option: option,
