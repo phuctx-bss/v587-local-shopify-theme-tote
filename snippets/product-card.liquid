@@ -366,23 +366,7 @@
 
 								{% if product_card_product.available %}
 								{% endif %}
-								{%- if color_swatch -%}
-									{% for product_option in product_card_product.options_with_values %}
-										{% assign product_option_name = product_option.name
-											| escape
-											| downcase
-										%}
-
-										{% if product_option_name == product_option_name_first %}
-											{% if settings.product_color_option_display == 'count' %}
-												<div class="product_color-count subtitle">
-													{{ product_option.values | size }}
-													{{ 'products.product.colors' | t }}
-												</div>
-											{% endif %}
-										{% endif %}
-									{% endfor %}
-								{%- endif -%}
+								
 								{% if settings.type_color_swatch == 'custom' and color_swatch %}
 									{% if settings.product_color_option_display == 'value' %}
 										<div class="product-form__controls product_color-count js-color-swatches">
