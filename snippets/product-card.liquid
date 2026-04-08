@@ -383,7 +383,19 @@
 										{% endif %}
 									{% endfor %}
 								{%- endif -%}
-								
+								{% if settings.type_color_swatch == 'custom' %}
+									{% if settings.product_color_option_display == 'value' %}
+										<div class="product-form__controls product_color-count js-color-swatches">
+											<div class="product-form__controls-group">
+												{% render 'product-card-variant-options',
+													product: product_card_product,
+													option: option,
+													no_form_id: true
+												%}
+											</div>
+										</div>
+									{% endif %}
+								{% endif %}
 							{%- endfor -%}
 						{%- endunless -%}
 					{% endif %}
