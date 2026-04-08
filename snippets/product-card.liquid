@@ -349,14 +349,6 @@
 					{% if show_color_count %}
 						{%- unless product_card_product.has_only_default_variant -%}
 							{%- for option in product_card_product.options_with_values -%}
-								<div style="display: none;">
-  <script>
-    console.log("--- Debug Color Swatch ---");
-    console.log("1. Tên thuộc tính hiện tại (đã handle):", "{{ option.name | handle | strip }}");
-    console.log("2. Tên gốc:", "{{ option.name }}");
-    console.log("3. Danh sách Trigger từ Settings:", {{ settings.trigger_swatch | append: ',' | append: settings.trigger_swatch_other | split: ',' | json }});
-  </script>
-</div>
 								{% liquid
 									assign color_swatch = false
 									assign product_option_name_first = ''
@@ -392,7 +384,7 @@
 									{% endfor %}
 								{%- endif -%}
 								{% if settings.type_color_swatch == 'custom' and color_swatch %}
-									{% if true %}
+									{% if settings.product_color_option_display == 'value' %}
 										<div class="product-form__controls product_color-count js-color-swatches">
 											<div class="product-form__controls-group">
 												{% render 'product-card-variant-options',
