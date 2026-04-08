@@ -348,6 +348,9 @@
 				<div class="product-parameters {% if settings.show_on_mobile %} quick-add-block-enable{% endif %}">
 					{% if show_color_count %}
 						{%- unless product_card_product.has_only_default_variant -%}
+							<p style="color: red; font-weight: bold;">
+  Số lượng options: {{ product_card_product.options_with_values.size }}
+</p>
 							{%- for option in product_card_product.options_with_values -%}
 								{% liquid
 									assign color_swatch = false
