@@ -1,9 +1,11 @@
 extends: theme-check:recommended
 ignore:
   - node_modules/**
-# AssetPreload:
-#   enabled: true
-#   severity: 1
+AssetPreload:
+  enabled: true
+  severity: 1
+  ignore:
+    - layout/theme.liquid
 # BlockIdUsage:
 #   enabled: true
 #   severity: 1
@@ -28,9 +30,11 @@ ignore:
 # DeprecatedFontsOnSettingsSchema:
 #   enabled: true
 #   severity: 1
-# DeprecatedTag:
-#   enabled: true
-#   severity: 1
+DeprecatedTag:
+  enabled: true
+  severity: 1
+  ignore:
+    - layout/theme.liquid
 # DuplicateContentForArguments:
 #   enabled: true
 #   severity: 1
@@ -70,10 +74,11 @@ ignore:
 # MissingRenderSnippetArguments:
 #   enabled: true
 #   severity: 1
-# MissingTemplate:
-#   enabled: true
-#   severity: 0
-#   ignoreMissing: []
+MissingTemplate:
+  enabled: true
+  severity: 0
+  ignore:
+    - layout/theme.liquid
 # OrphanedSnippet:
 #   enabled: true
 #   severity: 1
@@ -109,9 +114,11 @@ ignore:
 # UnclosedHTMLElement:
 #   enabled: true
 #   severity: 1
-# UndefinedObject:
-#   enabled: true
-#   severity: 1
+UndefinedObject:
+  enabled: true
+  severity: 1
+  ignore:
+    - layout/theme.liquid
 # UniqueDocParamNames:
 #   enabled: true
 #   severity: 0
