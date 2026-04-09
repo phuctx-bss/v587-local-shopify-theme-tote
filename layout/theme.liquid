@@ -1,5 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}" data-scheme="{{ settings.color_scheme }}" dir="{% render 'direction' %}">
+<html
+  class="no-js"
+  lang="{{ request.locale.iso_code }}"
+  data-scheme="{{ settings.color_scheme }}"
+  dir="{% render 'direction' %}"
+>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,6 +26,14 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+
+    {%- liquid
+      if template == '404'
+        echo '<meta name="robots" content="noindex,nofollow">'
+      elsif request.query_string != blank or template == 'search' or (template == 'collection' and current_tags)
+        echo '<meta name="robots" content="noindex,follow">'
+      endif
+    -%}
 
     {% render 'meta-tags' %}
 
@@ -146,7 +159,7 @@
           color: rgba(var(--color-foreground));
           /*background-color: rgb(var(--color-background));*/
           background: rgb(var(--color-background));
-	        background: var(--gradient-background);
+         background: var(--gradient-background);
           background-attachment: fixed;
           }
 
@@ -156,8 +169,8 @@
           	--breadcrumbs-height: 0px;
 
           	--spaced-section: 5rem;
-						
-						--border-radius-media: {{ settings.media_border_radius }}px;
+
+      --border-radius-media: {{ settings.media_border_radius }}px;
 
           	--font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
           	--font-body-style: {{ settings.type_body_font.style }};
@@ -239,7 +252,7 @@
           	--color-card-price-new: {{ settings.card_new_price_color.red }}, {{ settings.card_new_price_color.green }}, {{ settings.card_new_price_color.blue }};
           	--color-card-price-old: {{ settings.card_old_price_color.red }}, {{ settings.card_old_price_color.green }}, {{ settings.card_old_price_color.blue }};
             --color-badge-sale-background: {{ settings.badge_sale_background_color.red }}, {{ settings.badge_sale_background_color.green }}, {{ settings.badge_sale_background_color.blue }};
-		      	--color-badge-sale-text: {{ settings.badge_sale_text_color.red }}, {{ settings.badge_sale_text_color.green }}, {{ settings.badge_sale_text_color.blue }};
+        	--color-badge-sale-text: {{ settings.badge_sale_text_color.red }}, {{ settings.badge_sale_text_color.green }}, {{ settings.badge_sale_text_color.blue }};
             --color-badge-soldout-background: {{ settings.badge_soldout_background_color.red }}, {{ settings.badge_soldout_background_color.green }}, {{ settings.badge_soldout_background_color.blue }};
             --color-badge-soldout-text: {{ settings.badge_soldout_text_color.red }}, {{ settings.badge_soldout_text_color.green }}, {{ settings.badge_soldout_text_color.blue }};
             --color-badge-custom-background: {{ settings.badge_custom_background_color.red }}, {{ settings.badge_custom_background_color.green }}, {{ settings.badge_custom_background_color.blue }};
@@ -279,12 +292,11 @@
             font-weight: var(--font-body-weight);
             overflow-x: hidden;
           }
-          
     {% endstyle %}
     {% render 'color-scheme-vars' %}
     {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
-     {%- if settings.enable_styles -%}
+    {%- if settings.enable_styles -%}
       {{ 'section-reviews.css' | asset_url | stylesheet_tag: preload: true }}
     {%- endif -%}
     {%- if settings.predictive_search_enabled -%}
@@ -296,17 +308,15 @@
       >
     {%- endif -%}
 
-    
-      {%- if settings.quickview_show or settings.show_on_mobile -%}
-        <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="all">
-        <link
-          rel="preload"
-          href="{{ 'quick-add.css' | asset_url }}"
-          as="style"
-          onload="this.onload=null;this.rel='stylesheet'"
-        >
-      {%- endif -%}
-
+    {%- if settings.quickview_show or settings.show_on_mobile -%}
+      <link rel="stylesheet" href="{{ 'component-deferred-media.css' | asset_url }}" media="all">
+      <link
+        rel="preload"
+        href="{{ 'quick-add.css' | asset_url }}"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+      >
+    {%- endif -%}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -328,8 +338,8 @@
     <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'product-card.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'popup.js' | asset_url }}" defer="defer"></script>
-    {% if settings.home_page_slider and template.name == "index" %} 
-      <script src="{{ 'slider-demo.js' | asset_url }}" defer="defer"></script> 
+    {% if settings.home_page_slider and template.name == 'index' %}
+      <script src="{{ 'slider-demo.js' | asset_url }}" defer="defer"></script>
     {% endif %}
     {% if settings.show_back_to_top %}
       <script src="{{ 'scroll-top.js' | asset_url }}" defer="defer"></script>
@@ -424,7 +434,7 @@
 
   <body class="template-{{ template.name }} template-{{ template | replace: '.', '-' }}">
     <a class="skip-to-content-link button button--primary visually-hidden" href="#MainContent">
-     <span> {{ 'accessibility.skip_to_text' | t }} </span>
+      <span> {{ 'accessibility.skip_to_text' | t }} </span>
     </a>
 
     {% sections 'header-group' %}
@@ -439,22 +449,21 @@
        <div class="swiper slider-demo">
         <div class="swiper-wrapper slider-demo-wrapper">  
       {% endif %}
-          {{ content_for_layout }}
-          
-      {% if settings.home_page_slider and template.name == "index" %}
-          {% sections 'footer-group' %}
+      {{ content_for_layout }}
+
+      {% if settings.home_page_slider and template.name == 'index' %}
+        {% sections 'footer-group' %}
         </div>
-      </div>
+        </div>
       {% endif %}
     </main>
-    
     {% if settings.home_page_slider == false or  template.name != "index"  %}
       {% sections 'footer-group' %}
     {% endif %}
 
     {% if settings.show_back_to_top %}
       {% comment %}{% render 'scroll-top' %}{% endcomment %}
-			{% render 'back-to-top' %}
+      {% render 'back-to-top' %}
     {% endif %}
 
     {%- if request.page_type != 'cart' and settings.cart_type == 'drawer' -%}
@@ -518,30 +527,30 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-  {%- if request.design_mode -%}
-    <script>
-      if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {
-        const themeKey = `dataSent_{{ theme.name }}`;
-        if (!localStorage.getItem(themeKey)) {
-          navigator.sendBeacon(
-            'https://cdn.ashstonestudios.com/shopify-beacon/sent/',
-            new URLSearchParams({
-              slug: window.Shopify.theme.schema_name,
-              shop: window.Shopify.shop,
-              role: window.Shopify.theme.role,
-              route: window.location.pathname,
-              themeId: window.Shopify.theme.id,
-              themeStoreId: window.Shopify.theme.theme_store_id || 0,
-              isThemeEditor: !!window.Shopify.designMode,
-              themeName: '{{ theme.name }}',
-              shopName: '{{ shop.name }}',
-              shopEmail: '{{ shop.email }}',
-            })
-          );
-          localStorage.setItem(themeKey, 'true');
+    {%- if request.design_mode -%}
+      <script>
+        if (window.Shopify && window.Shopify.theme && navigator && navigator.sendBeacon && window.Shopify.designMode) {
+          const themeKey = `dataSent_{{ theme.name }}`;
+          if (!localStorage.getItem(themeKey)) {
+            navigator.sendBeacon(
+              'https://cdn.ashstonestudios.com/shopify-beacon/sent/',
+              new URLSearchParams({
+                slug: window.Shopify.theme.schema_name,
+                shop: window.Shopify.shop,
+                role: window.Shopify.theme.role,
+                route: window.location.pathname,
+                themeId: window.Shopify.theme.id,
+                themeStoreId: window.Shopify.theme.theme_store_id || 0,
+                isThemeEditor: !!window.Shopify.designMode,
+                themeName: '{{ theme.name }}',
+                shopName: '{{ shop.name }}',
+                shopEmail: '{{ shop.email }}',
+              })
+            );
+            localStorage.setItem(themeKey, 'true');
+          }
         }
-      }
-    </script>
-  {%- endif -%}
+      </script>
+    {%- endif -%}
   </body>
 </html>
