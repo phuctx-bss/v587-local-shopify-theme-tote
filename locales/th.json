@@ -9,21 +9,21 @@
  */
 {
   "general": {
-    "size": "Size",
-    "color": "Color",
+    "size": "ขนาด",
+    "color": "สี",
     "breadcrumbs": {
-      "home": "Home"
+      "home": "หน้าแรก"
     },
     "password_page": {
-      "login_form_heading": "Enter store using password:",
-      "login_password_button": "Enter using password",
-      "login_form_password_label": "Password",
-      "login_form_password_placeholder": "Your password",
-      "login_form_error": "Wrong password!",
-      "login_form_submit": "Enter",
-      "modal": "Password modal",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"link underlined-link\">Log in here</a>",
-      "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
+      "login_form_heading": "เข้าสู่ร้านด้วยรหัสผ่าน:",
+      "login_password_button": "เข้าสู่ระบบด้วยรหัสผ่าน",
+      "login_form_password_label": "รหัสผ่าน",
+      "login_form_password_placeholder": "รหัสผ่านของคุณ",
+      "login_form_error": "รหัสผ่านไม่ถูกต้อง!",
+      "login_form_submit": "เข้าสู่ระบบ",
+      "modal": "หน้าต่างรหัสผ่าน",
+      "admin_link_html": "คุณเป็นเจ้าของร้านหรือไม่? <a href=\"/admin\" class=\"link underlined-link\">เข้าสู่ระบบที่นี่</a>",
+      "powered_by_shopify_html": "ร้านค้านี้ขับเคลื่อนโดย {{ shopify }}"
     },
     "social": {
       "alt_text": {
@@ -44,7 +44,7 @@
         "linkedin": "ลิงก์อิน"
       }
     },
-    "continue_shopping": "Continue Shopping",
+    "continue_shopping": "เลือกซื้อสินค้าต่อ",
     "pagination": {
       "label": "Pagination",
       "page": "Page {{ number }}",
@@ -52,30 +52,30 @@
       "previous": "Previous page"
     },
     "search": {
-      "search": "Search",
-      "popular_items": "Popular:",
-      "suggestions": "Suggestions",
-      "categories": "Categories",
-      "products": "Products",
-      "collections": "Collections",
-      "articles": "Stories",
-      "pages": "Pages",
-      "placeholder": "Type to Search",
-      "header_placeholder": "What are You Looking For?"
+      "search": "ค้นหา",
+      "popular_items": "ยอดนิยม:",
+      "suggestions": "คำแนะนำ",
+      "categories": "หมวดหมู่",
+      "products": "สินค้า",
+      "collections": "คอลเลกชัน",
+      "articles": "บทความ",
+      "pages": "หน้า",
+      "placeholder": "พิมพ์คำค้นหา",
+      "header_placeholder": "คุณกำลังมองหาอะไร?"
     },
     "card": {
-      "view__all": "View all",
-      "view__full": "View Full Details",
-      "shop__now": "Shop now",
-      "quick__view": "Quick View",
-      "quick__view__compare": "View product",
-      "quick__add": "Quick Add",
-      "collection_name": "Collection name",
-      "view__more": "Full Details"
+      "view__all": "ดูทั้งหมด",
+      "view__full": "ดูรายละเอียดทั้งหมด",
+      "shop__now": "ช้อปเลย",
+      "quick__view": "ดูด่วน",
+      "quick__view__compare": "ดูสินค้า",
+      "quick__add": "เพิ่มด่วน",
+      "collection_name": "ชื่อคอลเลกชัน",
+      "view__more": "รายละเอียดทั้งหมด"
     },
     "cart": {
-      "view": "View Shopping Cart",
-      "item_added": "Cart",
+      "view": "ดูตะกร้าสินค้า",
+      "item_added": "ตะกร้าสินค้า",
       "empty_cart": "Your Shopping Cart is Empty",
       "button_label": "Explore Collections",
       "item_added_notification": "Product Added to Cart Correctly"
