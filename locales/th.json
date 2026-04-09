@@ -460,6 +460,9 @@
     },
     "recently_viewed": {
       "empty_message": "You haven't viewed any products yet."
+    },
+    "stores": {
+      "filters_title": "กรุณาเลือกพื้นที่เพื่อค้นหาร้าน HAPAS ใกล้คุณ"
     }
   },
   "localization": {
