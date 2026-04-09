@@ -590,28 +590,28 @@
     },
     "recover_password": {
       "title": "ตั้งรหัสผ่านใหม่",
-      "subtext": "We will send you an email to reset your password",
-      "success": "We've sent you an email with a link to update your password."
+      "subtext": "เราจะส่งอีเมลให้คุณเพื่อรีเซ็ตรหัสผ่าน",
+      "success": "เราได้ส่งอีเมลพร้อมลิงก์สำหรับอัปเดตรหัสผ่านของคุณแล้ว"
     },
     "register": {
-      "title": "Create an Account Access Exclusives & More",
-      "first_name": "First Name",
-      "last_name": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "submit": "Create Account",
-      "have_account": "Already have an account?",
-      "terms": "I have read and are agreeing to our",
-      "terms_link": "Terms of Use",
-      "terms_error": "You must agree with the terms and conditions of sales to check out.",
-      "newsletter": "Keep me up to date on news"
+      "title": "สร้างบัญชีเพื่อรับสิทธิพิเศษและอื่นๆ",
+      "first_name": "ชื่อจริง",
+      "last_name": "นามสกุล",
+      "email": "อีเมล",
+      "password": "รหัสผ่าน",
+      "submit": "สร้างบัญชี",
+      "have_account": "มีบัญชีอยู่แล้วใช่ไหม?",
+      "terms": "ฉันได้อ่านและยอมรับ",
+      "terms_link": "ข้อกำหนดการใช้งาน",
+      "terms_error": "คุณต้องยอมรับข้อกำหนดและเงื่อนไขการขายก่อนดำเนินการชำระเงิน",
+      "newsletter": "รับข่าวสารและอัปเดตล่าสุด"
     },
     "reset_password": {
-      "title": "Reset account password",
-      "subtext": "Enter a new password for {{ email }}",
-      "password": "Password",
-      "password_confirm": "Confirm password",
-      "submit": "Reset password"
+      "title": "รีเซ็ตรหัสผ่านบัญชี",
+      "subtext": "กรอกรหัสผ่านใหม่สำหรับ {{ email }}",
+      "password": "รหัสผ่าน",
+      "password_confirm": "ยืนยันรหัสผ่าน",
+      "submit": "รีเซ็ตรหัสผ่าน"
     }
   },
   "gift_cards": {
