@@ -129,30 +129,30 @@
     "button_label_request": "Send request"
   },
   "accessibility": {
-    "skip_to_text": "Skip to content",
-    "skip_to_product_info": "Skip to product information",
-    "close": "Close",
-    "unit_price_separator": "per",
-    "vendor": "Vendor:",
-    "error": "Error",
-    "back": "Back",
-    "open": "Open",
-    "refresh_page": "Choosing a selection results in a full page refresh.",
+    "skip_to_text": "ข้ามไปยังเนื้อหา",
+    "skip_to_product_info": "ข้ามไปยังข้อมูลสินค้า",
+    "close": "ปิด",
+    "unit_price_separator": "ต่อ",
+    "vendor": "ผู้จำหน่าย:",
+    "error": "ข้อผิดพลาด",
+    "back": "ย้อนกลับ",
+    "open": "เปิด",
+    "refresh_page": "การเลือกตัวเลือกจะทำให้หน้าเว็บโหลดใหม่ทั้งหมด",
     "link_messages": {
-      "new_window": "Opens in a new window.",
-      "external": "Opens external website."
+      "new_window": "เปิดในหน้าต่างใหม่",
+      "external": "เปิดเว็บไซต์ภายนอก"
     },
-    "of": "of",
-    "next_slide": "Slide right",
-    "previous_slide": "Slide left",
-    "loading": "Loading...",
-    "toggle": "Fullscreen menu button",
-    "product_link": "Product link",
-    "article_link": "Article link",
-    "link": "Link",
-    "cart_link": "Open cart",
-    "total_reviews": "Based on {{ rating_count }} Reviews",
-    "star_reviews_info": "{{ rating_value }} out of {{ rating_max }} stars"
+    "of": "จาก",
+    "next_slide": "เลื่อนไปทางขวา",
+    "previous_slide": "เลื่อนไปทางซ้าย",
+    "loading": "กำลังโหลด...",
+    "toggle": "ปุ่มเมนูแบบเต็มหน้าจอ",
+    "product_link": "ลิงก์สินค้า",
+    "article_link": "ลิงก์บทความ",
+    "link": "ลิงก์",
+    "cart_link": "เปิดตะกร้าสินค้า",
+    "total_reviews": "อิงจาก {{ rating_count }} รีวิว",
+    "star_reviews_info": "{{ rating_value }} จาก {{ rating_max }} ดาว"
   },
   "blogs": {
     "article": {
