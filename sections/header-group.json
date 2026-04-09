@@ -88,7 +88,7 @@
         "menu": "",
         "sticky_header_type": "on-scroll-up",
         "header_animation_type": "fade",
-        "enable_country_selector": true,
+        "enable_country_selector": false,
         "enable_language_selector": true,
         "enable_search": true,
         "scheme_position": "burger",
