@@ -76,9 +76,9 @@
     "cart": {
       "view": "ดูตะกร้าสินค้า",
       "item_added": "ตะกร้าสินค้า",
-      "empty_cart": "Your Shopping Cart is Empty",
-      "button_label": "Explore Collections",
-      "item_added_notification": "Product Added to Cart Correctly"
+      "empty_cart": "ตะกร้าสินค้าของคุณว่างเปล่า",
+      "button_label": "เลือกชมคอลเลกชัน",
+      "item_added_notification": "เพิ่มสินค้าในตะกร้าเรียบร้อยแล้ว"
     },
     "share": {
       "copy_to_clipboard": "Copy link",
