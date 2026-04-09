@@ -651,7 +651,7 @@
     }
   },
   "product-carousel": {
-    "previous": "Previous",
-    "next": "Next"
+    "previous": "หน้าก่อนหน้า",
+    "next": "หน้าถัดไป"
   }
 }
