@@ -239,10 +239,10 @@
       "product_description": "Use this space to provide a brief overview of the product, including what makes it special and why customers should check it out.",
       "video_exit_message": "{{ title }} opens full screen video in same window.",
       "include_taxes": "รวมภาษีแล้ว",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
-      "xr_button": "View in your space",
-      "xr_button_label": "View in your space, loads item in augmented reality window",
-      "colors": "Colours",
+      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง</a>จะคำนวณตอนชำระเงิน",
+      "xr_button": "ดูสินค้าในพื้นที่ของคุณ",
+      "xr_button_label": "ดูสินค้าในพื้นที่ของคุณ โดยจะแสดงในหน้าต่างความเป็นจริงเสริม (AR)",
+      "colors": "สี",
       "sizes": "ขนาด",
       "show_less": "แสดงน้อยลง"
     },
@@ -254,36 +254,36 @@
     },
     "facets": {
       "all": "All",
-      "apply": "Apply",
-      "clear": "Clear",
-      "clear_all": "Clear all",
-      "from": "From",
-      "filter_and_sort": "Filter and sort",
-      "filter_by_label": "Filter:",
-      "filter_button": "Filter",
-      "items": "Items",
-      "hide_filters": "Hide filters",
-      "show_filters": "Show filters",
+      "apply": "ใช้ตัวกรอง",
+      "clear": "ล้างค่า",
+      "clear_all": "ล้างทั้งหมด",
+      "from": "จาก",
+      "filter_and_sort": "ตัวกรองและการจัดเรียง",
+      "filter_by_label": "ตัวกรอง:",
+      "filter_button": "กรองสินค้า",
+      "items": "รายการสินค้า",
+      "hide_filters": "ซ่อนตัวกรอง",
+      "show_filters": "แสดงตัวกรอง",
       "filters_selected": {
-        "one": "{{ count }} selected",
-        "other": "{{ count }} selected"
+        "one": "เลือกแล้ว {{ count }} รายการ",
+        "other": "เลือกแล้ว {{ count }} รายการ"
       },
-      "price_range": "Price: {{ min_price }} – {{ max_price }}",
-      "max_price": "The highest price is {{ price }}",
+      "price_range": "ราคา: {{ min_price }} - {{ max_price }}",
+      "max_price": "ราคาสูงสุดคือ {{ price }}",
       "product_count": {
-        "one": "Showing {{ product_count }} of {{ count }} product",
-        "other": "Showing {{ product_count }} of {{ count }} products"
+        "one": "แสดง {{ product_count }} จาก {{ count }} รายการ",
+        "other": "แสดง {{ product_count }} จาก {{ count }} รายการ"
       },
       "product_count_simple": {
-        "one": "{{ count }} Result",
-        "other": "{{ count }} Results"
+        "one": "{{ count }} รายการ",
+        "other": "{{ count }} รายการ"
       },
-      "reset": "Reset",
-      "sort_button": "Sort",
-      "sort_by_label": "Sort By",
-      "to": "To",
-      "clear_filter": "Clear filter",
-      "view_all_label": "All Products"
+      "reset": "ล้างค่า",
+      "sort_button": "เรียงสินค้า",
+      "sort_by_label": "เรียงตาม",
+      "to": "ถึง",
+      "clear_filter": "ล้างตัวกรอง",
+      "view_all_label": "สินค้าทั้งหมด"
     }
   },
   "templates": {
